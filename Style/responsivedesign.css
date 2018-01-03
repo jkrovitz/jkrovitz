@@ -1,0 +1,125 @@
+@import url('dropdown/arrow.css');
+
+}* {
+  box-sizing: border-box;
+}
+
+h1 {
+   text-align: center;
+  color: #FFFFFF;
+
+}
+
+h1:link {
+color: #ffffff;
+text-decoration: none;
+}
+h1:visited {
+color: #ffffff;
+text-decoration: none;
+}
+h1:hover {
+color: #ffffff;
+  text-decoration: none;
+}
+
+a:link {
+color: #ffffff;
+text-decoration: none;
+}
+a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+a:hover {
+color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+    width: 80%;
+  height: 80%:
+/*    height: 400px;*/
+    background-image: url('/Images/AboutMeImage.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu {
+  float:left;
+  width:20%;
+}
+.menuitem {
+  padding:4px;
+  margin-top:7px;
+  border-bottom:1px solid #ffffff;
+}
+.main {
+  float:left;
+  width:30%;
+  padding: 0px;
+}
+.right {
+/*  background-color:#E9EBEB;*/
+/*  float:left;  -original*/
+  float: right;
+  width:30%;
+  padding:10px 15px;
+  margin-top:7px;
+}
+
+.right:hover{
+/*  background: #71C5E8;*/
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width:50%;
+  }
+  .right {
+    width:100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two unequal columns that floats next to each other */
+/*
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;  Should be removed. Only for demonstration
+*/
+/*}*/
+
+/*
+.left {
+  width: 50%;
+}
+*/
+
+.right {
+  width: 50%;
+}
+
+/*
+ Clear floats after the columns
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
