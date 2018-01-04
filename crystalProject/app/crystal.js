@@ -8,13 +8,14 @@ var scene = new three.Scene();
 scene.background = new THREE.Color( 0xFFFFFF );
 var viewSize = 120;
 var aspect=window.innerWidth*2/window.innerHeight;
-var camera = new THREE.OrthographicCamera(.5 * viewSize * aspect / - 2, .5 * viewSize * aspect / 2, viewSize
-                                          / 2, viewSize / - 2 , -1000, 1000);
+var camera = new THREE.OrthographicCamera(.85 * viewSize * aspect / - 2, .85 * viewSize * aspect / 2, viewSize
+                                          / 2, viewSize / - 2 , -100, 100);
 scene.add( camera );
 
 // Returns height of HTML document
 $( document ).height();
 window.addEventListener( 'resize', onWindowResize, true );
+window.resizeTo(300,300);
 
 function onWindowResize( event ) {
     SCREEN_WIDTH = window.innerWidth;

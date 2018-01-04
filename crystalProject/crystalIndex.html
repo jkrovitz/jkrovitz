@@ -5,7 +5,9 @@ https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-m
 
     <head>
         <title>Crystal</title>
-
+    <link rel="stylesheet" type="text/css" href="/Style/dropdownmenu.css">
+    <link rel="stylesheet" type="text/css" href="/Style/responsivedesign.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="lib/three.js"></script>
         <script src="lib/jquery.slim.js"></script>
         <style type="text/css">
@@ -17,10 +19,23 @@ https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-m
         <link rel="stylesheet" type="text/css" href="style/crystal.css">
     </head>
 
-    <body bgcolor="#FFFFFF">
+    <body bgcolor="#FFFFFF" onload="window.resizeTo(300,300)">
+<div style="background-color:#01426A; padding:2px; font-size: 10px;">
+      <h1><a href#index>Jeremy Krovitz</a></h1>
+    </div>
+    <ul>
+      <li class="menubut">
+        <div class="menu-buttons">
+
+          <li><a href="/index.html">About Me</a></li>
+          <li><a href="/myProjects.html">My Projects</a></li>
+          <li><a href="https://github.com/jkrovitz/jkrovitz">Github Repository</a></li>
+        </div>
+      </li>
+    </ul>
 
         <form>
-            <input class="aboutButtonDiv" type="button" value="About" onclick="window.location.href='about.html'" />
+            <input class="aboutButtonDiv" type="button" value="About The Program" onclick="window.location.href='about.html'" />
         </form>
 
         <div id="my_centered_buttons">

@@ -36,14 +36,16 @@ color: #ffffff;
   text-decoration: none;
 }
 
+/*
 img {
     width: 80%;
   height: 80%:
-/*    height: 400px;*/
+    height: 400px;
     background-image: url('/Images/AboutMeImage.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
+*/
 
 .menu {
   float:left;

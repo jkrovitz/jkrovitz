@@ -10,6 +10,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
+  <style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #E9EBEB;
+    color: #01426A;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button5 {background-color: #555555;} /* Black */
+
+.button3:hover {
+    background-color: #EF4F26;
+    color: white;
+}
+
+
+
+</style>
 <body style="font-family:ARIAL;">
 
 <div style="background-color:#01426A; padding:10px; font-size: 30px;">
@@ -41,6 +69,7 @@
 <p>These are my coding projects. </p>
 </div>
 
+<!--
   <div class="right">
     <h2></h2>
     <p></p>
@@ -50,25 +79,28 @@
     <p></p>
   </div>
 </div>
-
-
- <div id="my_centered_buttons">
-            <button class="crystalStructure" id="cubicPrism" onclick=location.href="/crystalProject/crystalIndex.html">
-                <img alt="cubic prism" src="Images/crystalProj.png" >
-            </button>
-<!--
-            <button class="crystalStructure" id="hexagonalPrism">
-                <img alt="hexagonal prism" src="crystalProjectImages/hexagonalPrismImage.png" width="70" height="70"></button>
-            <button class="crystalStructure" id="tetragonalPrism">
-                <img alt="tetragonal prism" src="crystalProjectImages/tetragonalImage.png" width="70" height="70">
-            </button>
-            <button class="crystalStructure" id="trigonalPrism">
-                <img alt="trigonal prism" src="crystalProjectImages/trigonalImage.png" width="70" height="70">
-            </button>
 -->
-        </div>
 
-  <a href="#" id="myHref">Click me</a>
+<!--
+  <div class="lnkButton">
+    <a href="crystalProject/crystalIndex.html"></a>
+    <button>Link</button>
+</div>
 
-</body>
+  <a href="crystalProject/crystalIndex.html"><img src="Images/crystalProj.png" title="Example Image Link" width=20% height=20% /></a>
+
+  <button class="button">Crystal Visualization</button>
+ <button onclick="crystalProject/crystalIndex.html" class="button button2">Blue</button>
+<button class="button button3">Red</button>
+<button class="button button4">Gray</button>
+<button class="button button5">Black</button>
+-->
+
+
+  </div>
+
+  <form>
+<input class="button button3" type="button" value="Crystal Vizualization" onclick="window.location.href='crystalProject/crystalIndex.html'" />
+</form>
+  </body>
 </html>
