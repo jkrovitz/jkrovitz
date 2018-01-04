@@ -1,0 +1,51 @@
+<!--Some of the code for orientationDropdowns was obtainted and modified from
+https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-menu-doesnt-load-new-iframe-->
+
+<html>
+
+    <head>
+        <title>Crystal</title>
+        <script src="lib/three.js"></script>
+        <script src="lib/jquery.slim.js"></script>
+        <style type="text/css">
+            }html {
+                overflow: hidden;
+            }
+
+        </style>
+        <link rel="stylesheet" type="text/css" href="style/crystal.css">
+    </head>
+
+    <body bgcolor="#FFFFFF">
+
+        <form>
+            <input class="aboutButtonDiv" type="button" value="About" onclick="window.location.href='about.html'" />
+        </form>
+
+        <div id="my_centered_buttons">
+            <button class="crystalStructure" id="cubicPrism">
+                <img alt="cubic prism" src="crystalProjectImages/cubicImage.png" width="70" height="70">
+            </button>
+            <button class="crystalStructure" id="hexagonalPrism">
+                <img alt="hexagonal prism" src="crystalProjectImages/hexagonalPrismImage.png" width="70" height="70"></button>
+            <button class="crystalStructure" id="tetragonalPrism">
+                <img alt="tetragonal prism" src="crystalProjectImages/tetragonalImage.png" width="70" height="70">
+            </button>
+            <button class="crystalStructure" id="trigonalPrism">
+                <img alt="trigonal prism" src="crystalProjectImages/trigonalImage.png" width="70" height="70">
+            </button>
+        </div>
+
+        <div class="onOffSwitchLabel"> </div>
+        <div class="onoffswitch">Cross Section:
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+
+        <script src="app/crystal.js"></script>
+    </body>
+
+</html>
