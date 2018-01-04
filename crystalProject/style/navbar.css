@@ -9,7 +9,34 @@ ul {
 
 }
 
+h1{
 
+     text-align: center;
+}
+
+/* unvisited link */
+h1 a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+h1 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+h1 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+h1 a:active {
+    color: white;
+    text-decoration: none;
+}
 
 li {
     float: left;
