@@ -48,25 +48,27 @@ img {
 */
 
 .menu {
-  float:left;
+  float:right;
   width:20%;
+
 }
 .menuitem {
-  padding:4px;
+/*  padding:4px;*/
   margin-top:7px;
   border-bottom:1px solid #ffffff;
 }
 .main {
   float:left;
-  width:30%;
+  width:20%;
   padding: 0px;
+  margin: 1cm 1cm 1cm 1cm;
 }
 .right {
 /*  background-color:#E9EBEB;*/
 /*  float:left;  -original*/
-  float: right;
-  width:30%;
-  padding:10px 15px;
+  float: left;
+  width:20%;
+/*  padding:5px 15px;*/
   margin-top:7px;
 }
 
@@ -90,9 +92,11 @@ img {
     box-sizing: border-box;
 }
 
+/*
 body {
     margin: 0;
 }
+*/
 
 /* Create two unequal columns that floats next to each other */
 /*
@@ -113,6 +117,13 @@ body {
   width: 50%;
 }
 
+
+p
+{
+    display:inline;
+}
+
+/*#lMDivClass p { display: inline }*/
 /*
  Clear floats after the columns
 .row:after {

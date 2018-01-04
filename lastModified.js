@@ -1,4 +1,4 @@
-<script
+
   type="text/JavaScript"
   language="JavaScript">
 <!--
@@ -68,5 +68,3 @@ document.write(
   "This page was updated on " +
   date_lastmodified() );
 
-// -->
-</script>

@@ -1,7 +1,7 @@
 .onoffswitch {
     display: flex;
     justify-content: center;
-    top:10px;
+    top:0px;
     left: 150px;
 
 }
