@@ -208,7 +208,7 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: sans-serif;  }
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
 
@@ -218,7 +218,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
-.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+.chromeframe { margin: 0.2em 0; padding: 0.2em 0; }
 
 .hidden { display: none !important; visibility: hidden; }
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
@@ -260,10 +260,12 @@ a.button, a.button:visited {
 	color:#01426A;
 
 	font-size:30px;
+/*
 	font-family:"PermanentMarker", "Lucida Grande", Helvetica, Arial, sans-serif;
 	font-family:"PermanentMarker", "Lucida Grande", Helvetica, Arial, sans-serif;
+*/
 	text-transform:uppercase;
-	font-weight:300;
+/*	font-weight:300;*/
 	line-height:36px;
 	margin:15px  0 20px;
 	height:44px;
@@ -278,22 +280,10 @@ a.button:hover, a.button:active {
 
 }
 
-h1 {
-/*	font-family:"CabinSketchBold", "Lucida Grande", Helvetica, Arial, sans-serif;*/
-/*
-	font-family:"Arial";
-	font-size:80px;
-	font-weight:300;
-	line-height:100px;
-	margin:20px 0 0;
-	letter-spacing:1px;
-	background-color: #01426A;
-*/
-}
+
 
 h2 {
-/*	font-family:"CabinSketch", "Lucida Grande", Helvetica, Arial, sans-serif;*/
-		font-family:"Arial";
+	font-family:"Arial";
 	font-size:60px;
 	font-weight:300;
 	letter-spacing:1px;
@@ -368,9 +358,11 @@ header ul li {
 
 }
 
+/*
 #headshot img {
 	margin-top:20px;
 }
+*/
 /*@media (max-width: 999px) {
 	header {
 		background-position:0 130px;
@@ -413,12 +405,15 @@ header ul li {
 }
 
 
+/*
 article {
-	background:url('/images/article-bg.png') no-repeat 8px 0px;
-    padding: 20px 40px;
-    width: 370px;
+	background:url('/images/article-bg.png') no-repeat 10px 0px;
+    padding: 40px 40px;
+    width: 500px;
+	height: 500px;
 
 }
+*/
 
 article img {
 	margin:6px 0px 15px;

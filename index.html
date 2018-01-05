@@ -13,7 +13,8 @@
   <link href="/Style/layout-mobile.css" rel="stylesheet" />
   <link href="/Style/layout-desktop.css" rel="stylesheet" />
 
-
+ <link href="/Style/responsivedesign.css" rel="stylesheet" />
+   <link href="/Style/dropdownmenu.css" rel="stylesheet" />
    <script src="Libraries/jquery-3.2.1.min.js"></script>
     <script>
     $(function(){
@@ -22,29 +23,49 @@
     </script>
 </head>
 <body style="background-color:#01426A;">
-  <div id="siteHeader"></div>
+<!--  <div id="siteHeader"></div>-->
+
+    <div style="background-color:#01426A; padding:1px; font-size: 15px;">
+<!--     <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>-->
+      <h1><a href="https://jkrovitz.github.io/jkrovitz/">Jeremy Krovitz</a></h1>
+
+    </div>
+
+    <ul>
+      <li class="menubut">
+        <div class="menu-buttons">
+                   <li><a target="_blank" href="https://github.com/jkrovitz/jkrovitz">Github</a></li>
+          <li><a target="_blank" href="Jeremy%20Krovitz%20Resume.pdf">Resume</a></li>
+<!--          <li><a href="mailto:jkrovitz@macalester.edu">Email</a></li>-->
+        </div>
+      </li>
+    </ul>
+
+
   <div id="top" role="main" class="container_24">
-    <header class="prefix_1 suffix_1 grid_22">
+
+<!--
       <div class="grid_14 suffix_5 alpha">
 
       </div>
+-->
 
       <div id="headshot" class="grid_5 suffix_1 push_15 omega">
-        <img src="images/jeremy.jpg" alt="Jeremy Krovitz" width=95%, height=95%>
+        <img src="images/jeremy.jpg" alt="Jeremy Krovitz">
       </div>
       <div id="intro" class="prefix_2 grid_13 pull_6 suffix_1 alpha">
-        <h4>Hi! I&rsquo;m Jeremy.</h4>
+        <h4><br><br>Hi! I&rsquo;m Jeremy.</h4>
         <p>I am a third year computer science major at Macalester College in St. Paul, Minnesota. Check out some of my projects below.</p>
       </div>
-    </header>
+
 
 
     <section >
-      <h3 >My Projects</h3>
+      <h3 class="prefix_1 suffix_1 grid_22 alpha omega">My Projects</h3>
 
             <article class="prefix_1 suffix_1 grid_10 alpha">
-        <a href="https://jkrovitz.github.io/jkrovitz/crystalProject/crystalIndex.html" target="_blank">
-          <img src="images/crystalvisualization.png" alt="Crystal Visualization">
+        <a href="crystalProject/crystalIndex.html" target="_blank">
+          <img src="images/crystalVisualization.png" alt="Crystal Visualization">
         </a>
         <h4>Crystal Visualization</h4>
         <p>A program I created with a team in my software development class to visualize the refraction of light in crystals. This program is not intended for mobile devices.</p>
@@ -63,69 +84,6 @@
   </div>
 
 
-      <script
-  type="text/JavaScript"
-  language="JavaScript">
-<!--
-//
-// format date as dd-mmm-yy
-// example: 12-Jan-99
-//
-function date_ddmmmyy(date)
-{
-  var d = date.getDate();
-  var m = date.getMonth() + 1;
-  var y = date.getYear();
-  // handle different year values
-  // returned by IE and NS in
-  // the year 2000.
-  if(y >= 2000)
-  {
-    y -= 2000;
-  }
-  if(y >= 100)
-  {
-    y -= 100;
-  }
-  // could use splitString() here
-  // but the following method is
-  // more compatible
-  var mmm =
-    ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
-    ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
-    ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
-    (10==m)?'Oct':(11==m)?'Nov':'Dec';
-  return "" +
-    (d<10?"0"+d:d) + "-" +
-    mmm + "-" +
-    (y<10?"0"+y:y);
-}
-//
-// get last modified date of the
-// current document.
-//
-function date_lastmodified()
-{
-  var lmd = document.lastModified;
-  var s   = "Unknown";
-  var d1;
-  // check if we have a valid date
-  // before proceeding
-  if(0 != (d1=Date.parse(lmd)))
-  {
-    s = "" + date_ddmmmyy(new Date(d1));
-  }
-  return s;
-}
-//
-// finally display the last modified date
-// as DD-MMM-YY
-//
-document.write(
-  "This page was updated on " +
-  date_lastmodified() );
-// -->
-</script>
 
 </body>
 </html>
