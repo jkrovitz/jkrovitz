@@ -1,11 +1,4 @@
 
-  type="text/JavaScript"
-  language="JavaScript">
-<!--
-//
-// format date as dd-mmm-yy
-// example: 12-Jan-99
-//
 function date_ddmmmyy(date)
 {
   var d = date.getDate();
@@ -65,6 +58,6 @@ function date_lastmodified()
 // as DD-MMM-YY
 //
 document.write(
-  "This page was updated on " +
+  "Last Modified: " +
   date_lastmodified() );
 

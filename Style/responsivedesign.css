@@ -1,12 +1,11 @@
-@import url('dropdown/arrow.css');
+@import url('dropdownmenu.css');
 
 }* {
   box-sizing: border-box;
 }
 
 h1 {
-  text-align: left;
-  margin-left: 80px;
+   text-align: center;
   color: #FFFFFF;
 
 }
@@ -93,26 +92,7 @@ img {
     box-sizing: border-box;
 }
 
-/*
-body {
-    margin: 0;
-}
-*/
 
-/* Create two unequal columns that floats next to each other */
-/*
-.column {
-    float: left;
-    padding: 10px;
-    height: 300px;  Should be removed. Only for demonstration
-*/
-/*}*/
-
-/*
-.left {
-  width: 50%;
-}
-*/
 
 .right {
   width: 50%;
@@ -121,7 +101,24 @@ body {
 
 p
 {
-    display:inline;
+
+/*  display:inline;*/
+}
+
+
+/*columns*/
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*#lMDivClass p { display: inline }*/
@@ -132,3 +129,14 @@ p
     display: table;
     clear: both;
 }*/
+
+
+.footer {
+/*   position: relative;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #01426A;
+   color: white;
+   text-align: left;
+}
