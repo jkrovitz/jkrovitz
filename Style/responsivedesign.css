@@ -107,15 +107,34 @@ p
 
 
 /*columns*/
-.column {
+.firstColumnSet {
     float: left;
     width: 50%;
-    padding: 10px;
-    height: 500px; /* Should be removed. Only for demonstration */
+    padding: 30px;
+    height: 350px; /* Should be removed. Only for demonstration */
 }
 
+
+
 /* Clear floats after the columns */
-.row:after {
+.secondRow:after {
+    content: "";
+/*    display: table;*/
+    clear: both;
+}
+
+/*columns*/
+.secondColumnSet {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+
+
+/* Clear floats after the columns */
+.firstRow:after {
     content: "";
     display: table;
     clear: both;
@@ -138,5 +157,5 @@ p
    width: 100%;
    background-color: #01426A;
    color: white;
-   text-align: left;
+   text-align: center;
 }
