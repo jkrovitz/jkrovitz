@@ -12,6 +12,10 @@ html, body {
     justify-content: center;
 }
 
+h1{
+    font-family: "Arial";
+}
+
 /*Cyrstal buttons.*/
 .crystalStructure {
     top: 0px;
@@ -31,8 +35,20 @@ html, body {
 }
 
 /*Formatting for "Cross Section" Label*/
-.leftLabel{
-    margin-left: calc(45% - 440px);
+.onoffswitch{
+/*    margin-left: calc(50% - 440px);*/
+/*
+        margin-left: calc(35% - 45px);
+    margin-bottom: calc(20% - 10px);
+*/
+    font-family: "Arial";
+}
+
+.crystalJsClass{
+/*
+    margin-left: calc(35% - 100px);
+    margin-bottom: calc(20% - 200px);
+*/
 }
 
 /*Formatting of home and about buttons*/
