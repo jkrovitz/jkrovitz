@@ -124,7 +124,7 @@ width:100%;
       display: fixed;
       float: left;
       width: 50%;
-      padding: 30px;
+      padding-top: 30px;
       height: 450px; /* Should be removed. Only for demonstration */
     }
 
@@ -145,6 +145,23 @@ width:100%;
       float: left;
       width: 50%;
       padding: 30px;
+      height: 450px; /* Should be removed. Only for demonstration */
+    }
+
+
+}
+
+@media only screen
+  and (min-device-width : 1000px){
+
+
+
+    /*columns*/
+    .firstColumnSet {
+      display: fixed;
+      float: left;
+      width: 50%;
+      padding-top: 300px;
       height: 450px; /* Should be removed. Only for demonstration */
     }
 
