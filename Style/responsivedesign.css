@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    overflow: hidden !important;
+
     width: 100%;
     height: 100%;
 }
@@ -25,6 +25,7 @@ a:link, a:visited, a:hover {
 .aboutMeId{
   display: fixed;
   float: left;
+  font-size: 80%;
   margin-bottom: 50px;
    margin-right: 50px;
 }
@@ -51,7 +52,13 @@ a:link, a:visited, a:hover {
   and (max-device-width : 667px)
   and (orientation : portrait) {
     .firstColumnSet {
+/*
+      font-size: 30px;
+    font-size: 3.5vw;
+      font-size: 8px;
+*/
       display: fixed;
+       font-size: 80%;
       float: left;
       width: 50%;
       padding: 30px;
@@ -73,6 +80,8 @@ a:link, a:visited, a:hover {
     /*columns*/
     .firstColumnSet {
       display: fixed;
+      font-size: 80%;
+/*      font-size: 30px;*/
       float: left;
       width: 50%;
       padding: 30px;
@@ -90,6 +99,8 @@ a:link, a:visited, a:hover {
     /*columns*/
     .firstColumnSet {
       display: fixed;
+/*      font-size: 40px;*/
+       font-size: 80%;
       float: left;
       width: 50%;
       padding-top: 300px;

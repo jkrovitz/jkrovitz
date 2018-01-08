@@ -1,0 +1,25 @@
+body{
+   margin: 1.8067500180675em 1.8067500180675em 1.8067500180675em 1.8067500180675em;
+    font-family: "Times New Roman";
+
+}
+
+h1 {
+    font-size: 180%;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    font-size: 100%;
+    margin: 0 !important;
+}
+
+
+p.phAndEm{
+    text-align: center;
+}
+
+p.address{
+    text-align: center;
+}

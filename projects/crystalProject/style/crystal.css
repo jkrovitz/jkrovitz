@@ -51,6 +51,18 @@ h1{
 */
 }
 
+
+
+.footer {
+  /*   position: relative;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #01426A;
+  color: white;
+  text-align: center;
+}
+
 /*Formatting of home and about buttons*/
 input.aboutButtonDiv, input.homeButtonDiv {
     width: 140px;
