@@ -1,103 +1,49 @@
 @import url('dropdownmenu.css');
 
-}* {
-  box-sizing: border-box;
+html, body {
+    overflow-x: hidden
+      font-size: 2vw;
+}
+
+body {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
   text-align: center;
-  color: #FFFFFF;
-
 }
 
-h1:link {
-  color: #ffffff;
-  text-decoration: none;
-}
-h1:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-h1:hover {
+
+a:link, a:visited, a:hover {
   color: #ffffff;
   text-decoration: none;
 }
 
-a:link {
-  color: #ffffff;
-  text-decoration: none;
-}
-a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
 
 .aboutMeId{
+  display: fixed;
   float: left;
+  margin-bottom: 50px;
+   margin-right: 50px;
 }
 
 .aboutMeImageId{
   float: left;
   margin-bottom: 50px;
 }
-/*
-.menu {
-  float:right;
-  width:20%;
-*/
 
-/*
-}
-.menuitem {
-    padding:4px;
-  border-bottom:1px solid #ffffff;
-}
-.main {
-  float:left;
-  width:25%;
-  padding: 0px;
-}
-*/
-/*.right {*/
-  /*  background-color:#E9EBEB;*/
-  /*  float:left;  -original*/
-/*
-  float: right;
-  width:70%;
-*/
-/*
-    padding:5px 15px;
-  margin-top:7px;
-*/
-/*}*/
-
-/*
-.right:hover{
-    background: #71C5E8;
-}
-*/
 
 
 .leftHeadshot{
-   float: left;
-   padding: 0 20px 20px 0;
+/*   display: fixed;*/
+  float: left;
+/*   padding: 0 20px 20px 0;*/
 
 }
 
-/*
-@media only screen and (max-width:800px) {
-For tablets:
-.main {
-width:50%;
-}
-.right {
-width:100%;
-}
-*/
+
 
 
 @media only screen
@@ -114,22 +60,7 @@ width:100%;
     }
 
 }
-@media only screen
-  and (min-device-width : 375px)
-  and (max-device-width : 667px)
-  and (orientation : landscape) {
 
-    /*columns*/
-    .firstColumnSet {
-      display: fixed;
-      float: left;
-      width: 50%;
-      padding-top: 30px;
-      height: 450px; /* Should be removed. Only for demonstration */
-    }
-
-
-}
 
 
 
@@ -169,16 +100,36 @@ width:100%;
 }
 
 
+@media only screen
+  and (min-device-width : 668px)
+  and(max-device-width : 999px)
+  {
 
 
-* {
-  box-sizing: border-box;
+
+    /*columns*/
+    .firstColumnSet {
+
+      display: fixed;
+      float: left;
+      width: 50%;
+      padding-top: 300px;
+      height: 450px; /* Should be removed. Only for demonstration */
+    }
+
+
 }
 
 
 
-.right {
-  width: 50%;
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
 }
 
 
@@ -204,7 +155,6 @@ width:100%;
   padding: 5px;
   height: auto;
 }
-
 
 
 /* Clear floats after the columns */
@@ -240,7 +190,6 @@ width:100%;
 }
 
 
-
 /* Clear floats after the columns */
 .fourthRow:after {
   content: "";
@@ -264,19 +213,6 @@ width:100%;
   width: 50%;
 
 }
-
-
-
-
-
-/*#lMDivClass p { display: inline }*/
-/*
-Clear floats after the columns
-.row:after {
-content: "";
-display: table;
-clear: both;
-}*/
 
 
 .footer {
