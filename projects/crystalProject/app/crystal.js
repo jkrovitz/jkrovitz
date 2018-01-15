@@ -6,10 +6,12 @@ var three = THREE;
 //--------------------Camera Settings--------------------//
 var scene = new three.Scene();
 scene.background = new THREE.Color( 0xFFFFFF );
-var viewSize = 120;
+var viewSize = 240;
+//var innerHeight = 300;
+//var innerWidth = 500;
 var aspect=window.innerWidth*2/window.innerHeight;
 var camera = new THREE.OrthographicCamera(.5 * viewSize * aspect / - 2, .5 * viewSize * aspect / 2, viewSize
-                                          / 2, viewSize / - 2 , -1000, 1000);
+                                          / 2, viewSize / - 2 , -1000, 1000, 23,  23);
 scene.add( camera );
 
 // Returns height of HTML document
@@ -25,14 +27,14 @@ function onWindowResize( event ) {
     camera.left   = - 0.5 * viewSize * aspect / 2;
     camera.right  =   0.5 * viewSize * aspect / 2;
     camera.top    =   viewSize / 2;
-    camera.bottom = - viewSize / 2;
+    camera.bottom = (- viewSize / 2);
     camera.updateProjectionMatrix();
 }
 
 //distance zoomed out/in
-camera.position.x = 50;
-camera.position.y = -32;
-camera.position.z = 50;
+camera.position.x = 20 ;
+camera.position.y = -70;
+camera.position.z = 30;
 camera.rotateX(.25);
 
 //rendering

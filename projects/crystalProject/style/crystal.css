@@ -16,16 +16,62 @@ h1{
     font-family: "Arial";
 }
 
+
+
+@media (max-width: 768px) {
 /*Cyrstal buttons.*/
 .crystalStructure {
-    top: 0px;
-    width: 90px;
-    height: 90px;
+    top: 0 px;
+    width: 60px;
+    height: 60px;
     border:  solid #01426A;
     border-width: thin;
     display: inline-block;
-    margin: 40px 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+/*    margin: 40px 10px;*/
     background-color: white;
+}
+}
+
+@media (min-width: 768px) {
+    /*Cyrstal buttons.*/
+    .crystalStructure {
+        top: -20px;
+        width: 90px;
+        height: 90px;
+        border:  solid #01426A;
+        border-width: thin;
+        display: inline-block;
+        margin: 40px 10px;
+        background-color: white;
+    }
+}
+
+@media (min-width: 992px) {
+    .crystalStructure {
+        top: -20px;
+        width: 100px;
+        height: 100px;
+        border:  solid #01426A;
+        border-width: thin;
+        display: inline-block;
+        margin: 40px 10px;
+        background-color: white;
+    }
+}
+
+@media (min-width: 1200px) {
+    .crystalStructure {
+        top: 0px;
+        width: 100px;
+        height: 100px;
+        border:  solid #01426A;
+        border-width: thin;
+        display: inline-block;
+        margin: 40px 10px;
+        background-color: white;
+    }
 }
 
 /*Cyrstal button behavior when selected.*/
@@ -36,31 +82,31 @@ h1{
 
 /*Formatting for "Cross Section" Label*/
 .onoffswitch{
-/*    margin-left: calc(50% - 440px);*/
-/*
-        margin-left: calc(35% - 45px);
+    /*    margin-left: calc(50% - 440px);*/
+    /*
+    margin-left: calc(35% - 45px);
     margin-bottom: calc(20% - 10px);
-*/
+    */
     font-family: "Arial";
 }
 
 .crystalJsClass{
-/*
+    /*
     margin-left: calc(35% - 100px);
     margin-bottom: calc(20% - 200px);
-*/
+    */
 }
 
 
 
 .footer {
-  /*   position: relative;*/
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #01426A;
-  color: white;
-  text-align: center;
+    /*   position: relative;*/
+    left: 0;
+    margin-bottom: calc(20% - 100px);
+    width: 100%;
+    background-color: #01426A;
+    color: white;
+    text-align: center;
 }
 
 /*Formatting of home and about buttons*/
@@ -75,4 +121,13 @@ input.aboutButtonDiv, input.homeButtonDiv {
     color: #fff;
     border: 1px solid #3366cc;
     border-radius: 10px;
+}
+
+
+.crystalJSClass{
+
+   height: 20%;
+    width: 20%;
+    resize: both;
+/*    overflow: auto;*/
 }
