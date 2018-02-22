@@ -12,108 +12,6 @@
 
   <style>
 
-    .myDivClass{
-/*      background-color: #ffffff;*/
-      border-bottom-color: #01426a;
-      border-bottom-width: 2px;
-      border-bottom-style: solid;
-      display: block;
-      background-color: white;
-
-padding:10px 20px;
-
-
-/*
-
-  border: none;
-    outline: none;
-*/
-
-    cursor: pointer;
-/*  background-color: white;*/
-/*  text-decoration-color: #01426a;*/
-
-    font-size: 18px;
-    color: #01426a;
-    }
-  /* Style the buttons */
-
-
-    .btn1 a.btn1{
-      color: #01426a;
-    }
-
-    /* Style the active class, and buttons on mouse-over */
-.static, .btn1:link {
-/*    background-color: #01426a;*/
- color: #01426a;
-  padding:10px 20px;
-
-/*    color: #01426a;*/
-}
-/* Style the active class, and buttons on mouse-over */
-.active, .btn1:hover {
-    background-color: #ffb500;
-    text-decoration-color: #01426a;
-}
-
-    /* Style the active class, and buttons on mouse-over */
-.active, .btn1:hover {
-    background-color: #ffb500;
-    text-decoration-color: #01426a;
-}
-
-
-
-
-        .btn2 a.btn2{
-      color: #01426a;
-    }
-
-    /* Style the active class, and buttons on mouse-over */
-.static, .btn2:link {
-/*    background-color: #01426a;*/
- color: #01426a;
-  padding:10px 20px;
-
-/*    color: #01426a;*/
-}
-/* Style the active class, and buttons on mouse-over */
-.active, .btn2:hover {
-    background-color: #ffb500;
-    text-decoration-color: #01426a;
-}
-
-    /* Style the active class, and buttons on mouse-over */
-.active, .btn2:hover {
-    background-color: #ffb500;
-    text-decoration-color: #01426a;
-}
-
-        .btn3 a.btn3{
-      color: #01426a;
-    }
-
-    /* Style the active class, and buttons on mouse-over */
-.static, .btn3:link {
-/*    background-color: #01426a;*/
- color: #01426a;
-  padding:10px 20px;
-
-/*    color: #01426a;*/
-}
-/* Style the active class, and buttons on mouse-over */
-.active, .btn3:hover {
-    background-color: #ffb500;
-    text-decoration-color: #01426a;
-}
-
-    /* Style the active class, and buttons on mouse-over */
-.active, .btn3:hover {
-    background-color: #ffb500;
-    text-decoration-color: #01426a;
-}
-
 
 
 
@@ -124,6 +22,7 @@ padding:10px 20px;
 
 
 
+<!--
   <div class="heading" style="background-color:#01426a; padding:10px; font-size: 30px;">
       <h1><a href="https://jkrovitz.github.io/jkrovitz/">Jeremy Krovitz</a></h1>
     </div>
@@ -151,8 +50,35 @@ $(function(){
 <a class="btn1" href="https://github.com/jkrovitz/jkrovitz" style="color:#01426a;">Github</a>
  <a class="btn2" href="https://jkrovitz.github.io/jkrovitz/resume.html" style="color:#01426a;">My Resume</a>
   <a class="btn3" href="https://jkrovitz.github.io/jkrovitz/contactme.html" style="color:#01426a;">Contact Me</a>
+-->
+
+ <div class="heading" style="background-color:#01426a; padding:10px; font-size: 30px;">
+      <h1><a href="https://jkrovitz.github.io/jkrovitz/">Jeremy Krovitz</a></h1>
+    </div>
 
 
+
+
+
+
+
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+
+
+<div class="myDivClass">
+
+<a class="btn1" href="https://github.com/jkrovitz/jkrovitz" style="color:#01426a;">Github</a>
+ <a class="btn2" href="https://jkrovitz.github.io/jkrovitz/resume.html" style="color:#01426a;">My Resume</a>
+  <a class="btn3" href="https://jkrovitz.github.io/jkrovitz/contactme.html" style="color:#01426a;">Contact Me</a>
 </div>
   </body>
 </html>
