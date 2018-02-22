@@ -2,11 +2,27 @@
 
 }
 
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+*/
+/*
+
+li {
+    display: inline;
+}
+*/
+
+/*
 a.current {
-/*  background:red;*/
+  background:red;
   color:blck;
 
 }
+*/
 
 
 nav a.current {
@@ -20,6 +36,7 @@ nav a.current {
 }
 
 
+/*
 .btn1 a.btn1,
 .btn2 a.btn2,
 .btn3 a.btn3,
@@ -27,6 +44,7 @@ nav a.current {
   background:#01426a;
   color:white;
 }
+*/
 
 
 
