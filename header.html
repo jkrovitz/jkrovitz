@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+ <html>
 
   <head>
     <link rel="stylesheet" type="text/css" href="Style/dropdownmenu.css">
@@ -7,27 +7,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+
   </head>
 
-  <body >
+  <style>
+
+    .myDivClass{
+      color: 01426a
+/*      background-color: #ffffff;*/
+      border-bottom-color: #01426a;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+          color:#01426a;
 
 
-  <div style="background-color:#01426A; padding:10px; font-size: 30px;">
+
+/*
+
+  border: none;
+    outline: none;
+*/
+/*    padding: 10px 16px;*/
+
+    cursor: pointer;
+/*  background-color: white;*/
+/*  text-decoration-color: #01426a;*/
+/*
+  color: black;
+    background-color: white;
+*/
+
+    font-size: 18px;
+    }
+  /* Style the buttons */
+
+
+
+    /* Style the active class, and buttons on mouse-over */
+.static, .btn:link {
+    background-color: #ffffff;
+    color: #01426a;
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+
+
+
+  </style>
+
+  <body>
+
+
+
+  <div style="background-color:#01426a; padding:10px; font-size: 30px;">
       <h1><a href="https://jkrovitz.github.io/jkrovitz/">Jeremy Krovitz</a></h1>
     </div>
-    <ul>
-      <li class="menubut">
-        <div class="menu-buttons">
-          <li><font color="01426a"><a href="https://github.com/jkrovitz/jkrovitz">Github Repository</a></font></li>
-          <li><a href="https://jkrovitz.github.io/jkrovitz/resume.html">My Resume</a></li>
-          <li><a href="https://jkrovitz.github.io/jkrovitz/contactme.html"> Contact Me</a></li>
 
 
 
 
-        </div>
-      </li>
-    </ul>
 
+
+
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+
+
+<div class="myDivClass">
+  <ul>
+  <li><a class="home" href="https://github.com/jkrovitz/jkrovitz">Github</a></li>
+  <li><a class="about" href="https://jkrovitz.github.io/jkrovitz/resume.html">My Resume</a></li>
+  <li><a class="products" href="https://jkrovitz.github.io/jkrovitz/contactme.html">Contact Me</a></li>
+</ul>
+</div>
   </body>
 </html>

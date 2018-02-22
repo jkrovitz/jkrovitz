@@ -1,54 +1,119 @@
+a.current {
+  background:red;
+  color:white;
+}
+
+
+nav a.current {
+  background:darkblue;
+  color:white;
+}
+
+.tips-tricks a.tips-tricks {
+  background:darkblue;
+  color:white;
+}
+
+
+.home a.home,
+.about a.about,
+.products a.products,
+.services a.services
+{
+  background:red;
+  color:white;
+}
+
+
+
+
+
+
+/*
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #E9EBEB;
+    background-color: #FFFFFF;
 }
+*/
 
+/*
 
 li {
     float: left;
 
 }
+*/
 
 
 /* unvisited link */
+/*
 ul a:link {
-    color: #01426A;
+    color: #01426a;
 }
+*/
 
 /* visited link */
+/*
 ul a:visited {
-    color: #01426A;
+      color: #01426a;
 }
+*/
 
 /* mouse over link */
+/*
 ul a:hover {
-    color: #01426A;
+     color: #01426a;
 }
+*/
 
-/* selected link */
+/*
+ selected link
 ul a:active {
-    color: #01426A;
+     color: #01426a;
 }
+*/
 
-li a:link, .menubut {
+/*
+li a:link, .but {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+      background-color: #ffffff;
 
+
+}
+*/
+
+
+
+/*
+
+li a:hover, .dropdown:hover .but {
+    background-color: #FFB500;
+}
+
+li a:visited, .dropdown:active .but {
+    background-color: #FFB500;
+}
+
+li a:active, .dropdown:active .but {
+    background-color: #FFB500;
 }
 
 
-
-
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #71C5E8;
+li a:link, .dropdown:link .but {
+    background-color: #01426a;
 }
+*/
 
 
+
+
+/*
 
 li.dropdown {
     display: inline-block;
@@ -58,6 +123,14 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+ Style the active class, and buttons on mouse-over
+.active, .menu-buttons:hover {
+    background-color: #ffb500;
+    color: #01426a;
+}
+*/
+
 
 
 
