@@ -13,6 +13,7 @@ body {
 
 h1 {
   text-align: center;
+  color:#ffb500;
 }
 
 
@@ -231,7 +232,7 @@ a:link, a:visited, a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #71C5e8;
+  background-color: #ffffff;
   color: #01426a;
   text-align: center;
 }

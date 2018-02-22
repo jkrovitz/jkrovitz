@@ -1,11 +1,22 @@
 
+::-moz-selection { /* Code for Firefox */
+    color: #ffb500;
+    background: #01426a;
+}
+
+::selection {
+    color: #ffb500;
+    background: #01426a;
+}
+
+
     .myDivClass{
 /*      background-color: #ffffff;*/
       border-bottom-color: #01426a;
       border-bottom-width: 2px;
       border-bottom-style: solid;
       display: block;
-      background-color: white;
+      background-color: #71C5e8;
 
 padding:10px 20px;
 
@@ -100,7 +111,6 @@ padding:10px 20px;
     background-color: #ffb500;
     text-decoration-color: #01426a;
 }
-
 
 
 /*
