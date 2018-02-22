@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,27 +20,77 @@
   </head>
   <style>
 
-  div.a {
-   line-height: 50px;
-    font-size: 40px;
-    color: white;
-}
 
-    div.b{
-      line-height: 70 px;
-      font-size: 30 px;
-      color: blue;
+    div.contactMeHeading{
+        line-height: 50px;
+        font-size: 40px;
+        color: white;
+    }
+
+
+    /* unvisited link */
+    a.phone:link{
+        color: #ffffff;
+        font-size: 30px;
+         line-height: 100px;
+    }
+
+    /* visited link */
+    a.phone:visited{
+       color: #ffffff;
+            font-size: 30px;
+         line-height: 100px;
+    }
+
+    /* mouse over link */
+    a.phone:hover {
+        color: #ffffff;
+            font-size: 30px;
+        line-height: 100px;
+    }
+
+
+    /* selected link */
+    a.phone:active{
+        color: #ffffff;
+         line-height: 100px;
+    }
+
+    /* unvisited link */
+    a.email:link{
+        color: #ffffff;
+    }
+
+    /* visited link */
+    a.email:visited{
+       color: #ffffff;
+    }
+
+    /* mouse over link */
+    a.email:hover {
+        color: #ffffff;
+    }
+
+    /* selected link */
+    a.email:active{
+        color: #ffffff;
     }
 
   </style>
   <body bgcolor="#01426A" style="font-family:ARIAL;">
 
+
+
     <div id="siteHeader"></div>
 
 
 
-    <div class="a"><font allign="#left">Contact Me: </font></div>
-    <div class="b"><a href="tel:7635678851">Call: (763) 567-8851</a></div>
+    <div class="contactMeHeading"><font allign="#left">Contact Me </font></div>
+    <a class="phone" href="tel:763678851">M: (763) 567-8851</a> <br><br>
+      <a class="email" href="mailto:jkrovitz@macalester.edu">E: jkrovitz@macalester.edu</a>
+
+
+
 
 
 </body>
