@@ -13,7 +13,6 @@ body {
 
 h1 {
   text-align: center;
-  color:#ffb500;
 }
 
 
@@ -263,21 +262,3 @@ a:link, a:visited, a:hover {
   color: white;
 }
 
-.hr {
-	background:url('/images/hr.png') no-repeat bottom center;
-	padding-bottom:40px;
-	margin-bottom:40px;
-}
-
-
-article {
-	background:url('/images/article-bg.png') no-repeat 8px 0px;
-    padding: 20px 40px;
-    width: 370px;
-
-}
-
-article img {
-	margin:6px 0px 15px;
-	text-align:center;
-}
