@@ -1,6 +1,11 @@
+.heading{
+
+}
+
 a.current {
-  background:red;
-  color:white;
+/*  background:red;*/
+  color:blck;
+
 }
 
 
@@ -15,12 +20,11 @@ nav a.current {
 }
 
 
-.home a.home,
-.about a.about,
-.products a.products,
-.services a.services
+.btn1 a.btn1,
+.btn2 a.btn2,
+.btn3 a.btn3,
 {
-  background:red;
+  background:#01426a;
   color:white;
 }
 
