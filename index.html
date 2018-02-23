@@ -4,6 +4,7 @@
 <html>
   <head>
     <meta charset="utf-16">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <script src="Libraries/jquery-3.2.1.min.js"></script>
     <script>
       $(function(){
@@ -19,12 +20,14 @@
   </head>
   <body bgcolor="#71C5e8" style="font-family:ARIAL;">
 
+
     <div id="siteHeader"></div>
 
+<!--
     <div  class="aboutMeId">
       <h2><font color="#01426a">About Me</font></h2>
     </div><br><br><br><br>
-    <!--      <p > <img src="Images/AboutMeImage.jpg" alt="Jeremy Krovitz" width="20%" height="20%" align="left" style="margin:0px 10px 0px 10px">  </p>-->
+          <p > <img src="Images/AboutMeImage.jpg" alt="Jeremy Krovitz" width="20%" height="20%" align="left" style="margin:0px 10px 0px 10px">  </p>
 
 
     <div class ="aboutMeImageId">
@@ -34,53 +37,67 @@
         I am a third year computer science major at Macalester College in St. Paul, Minnesota. I am passionate about developing software that will solve problems and better the lives of others.
         </font></p>
 
+-->
+
+<!--
+          <div  class="aboutMeImageClass">
+      <h2><font color="#01426a">About Me</font></h2>
+    </div><br><br><br><br>
+          <p > <img src="Images/AboutMeImage.jpg" alt="Jeremy Krovitz" width="20%" height="20%" align="left" style="margin:0px 10px 0px 10px">  </p>
+
+-->
+
+<!--
+    <div class ="aboutMeImageClass">
       <p><font color="#01426a">
-        I am seeking an internship developing software during the summer of 2018.
+        <img src="Images/AboutMeImage.jpg" alt="Jeremy Krovitz" width="20%" height="20%" align="left" style="margin:0px 10px 0px 10px" class="leftHeadshot" />
+        My name is Jeremy Krovitz, and
+        I am a third year computer science major at Macalester College in St. Paul, Minnesota. I am passionate about developing software that will solve problems and better the lives of others.
         </font></p>
+-->
+<div class="container">
+<div class="aboutMeTextAndImage">
+  <div class="image">
+    <img src="Images/AboutMeImage.jpg" height="185px" width="150px" />
+  </div>
+  <div class="text">
+    <h3 class="aboutMeH3Class"> About Me </h3>
+    <p class="firstIndexPara"> My name is Jeremy Krovitz, and I am a third year computer science major at Macalester College
+      in St. Paul, Minnesota. I am passionate about developing software
+      that will solve problems and better the lives of others.
+  </p>
 
-      <p><font color="#01426a">
-        Please take a look at some of my work that is shown below.
-        </font></p>
+    <p class="secondIndexPara">  I am seeking an internship during the summer of 2018
+        that will allow me to utilize my problem solving skills and attention to
+        detail to further develop my abilities in the field of computer science.</p>
 
 
-    </div>
+    <p class="thirdIndexPara">  Please take a look at some of my work that is shown below.</p>
+  </div>
+</div><div class="projectsAll">
+    <div class="projectsLabel"><h3 class=projectsH3Class><font color="#01426a">&nbsp;Projects</font></h3></div>
 
 
-
-
-    <div class="right"> <font color="#01426a"><br><br> </font></div>
-
-    <br><br>
-
-    <div class="projectsClass"><h2><font color="#01426a">&nbsp;Projects</font></h2></div>
-
-
-     <div class="secondRow">
-      <div class="secondColumnSet" >
+     <div class="projectInteractive">
+      <div class="crystalInteractive" >
         <a href="projects/crystalProject/crystalIndex.html" target="_self">
           <img src="Images/crystalVisualization.png" alt="Crystal Visualization" width=100% height=%>
         </a>
       </div>
-      <div class="secondColumnSet" >
+      <div class="pixelInteractive" >
         <img src="Images/pixelSortingButton.png" alt="Pixel Sorting" width=100% height=%>
       </div>
     </div>
 
 
-    <div class="firstRow">
-      <div class="firstColumnSet" >
+    <div class="projectTitles">
+      <div class="crystalTitle" >
         <h3><font color="#01426a">Crystal Visualization</font></h3>
       </div>
-      <div class="firstColumnSet" >
+      <div class="pixelTitle" >
         <h3><font color="#01426a">Pixel Sorting</font></h3>
-      </div>
-    </div>
-
-
-
-
-    <div class="thirdRow">
-      <div class="thirdColumnSet" >
+      </div></div><div class="projectDescriptions">
+      <div class="crystalDescription" >
 
 
 
@@ -88,7 +105,7 @@
           A program I created with teammates - Luke Brown, Emma Thole, and Will Kann - in my software development class to visualize the
           refraction of light in crystals. This program is not intended for mobile devices.</font></p>
       </div>
-      <div class="thirdColumnSet" >
+      <div class="pixelDescription" >
 
         <p ><font color="#01426a">
           A program I created with teammates - Luke Brown and Emma Thole - in my algorithms class that allows the user to input an
@@ -97,20 +114,23 @@
           </font></p>
       </div>
     </div>
-    <div class="fourthRow">
-      <div class="fourthColumnSet" >
+    <div class="projectGit" id="my_centered_buttons">
+      <div class="crystalGit" >
         <button class="button button1"  type="reset" onclick="location.href='https://github.com/jkrovitz/jkrovitz/tree/master/projects/crystalProject'">
           See it on Github
         </button>
-      </div>
-      <div class="fourthColumnSet" >
+      </div><div class="pixelGit" >
         <button class="button button1"  type="reset" onclick="location.href='https://github.com/jkrovitz/jkrovitz/tree/master/projects/pixelSorting'">
           See it on Github
         </button>
       </div>
     </div>
-
+</div>
 
     <div id="footerId" class="footer">
       &copy; 2018 Jeremy Krovitz
     </div>
+     </div>
+
+  </body>
+</html>

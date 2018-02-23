@@ -1,0 +1,159 @@
+div.aboutMeTextAndImage{
+  width: 100%;
+  margin-bottom:70px;
+  position: static;
+}
+
+
+.image {
+  width: 30%;
+  float: left;
+  margin-top:4px;
+ position: static;
+  margin-left: 10px;
+}
+h3.aboutMeH3Class {
+  color: #01426a;
+  font-size: 200%;
+}
+.text {
+  width: 100-30%;
+  float: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+h3, p{
+margin:0;
+}
+
+p.firstIndexPara {
+   margin-top: 8px;
+  font-size: 75%;
+}
+
+p.secondIndexPara {
+    margin-top: 8px;
+  font-size: 75%;
+}
+
+p.thirdIndexPara {
+  margin-top: 8px;
+  font-size: 75%;
+}
+
+
+/*---------------------------------------------------*/
+
+p, h2{
+  padding: 0;
+  margin:0;
+}
+
+div.projectsAll{
+  position: static;
+}
+
+
+div.projectsLabel{
+  position: static;
+}
+
+h3.projectsH3Class{
+  position: static;
+  text-align: center;
+  color: #01426a;
+  font-size: 200%;
+}
+
+
+div.projectInteractive{
+    width: 90%;
+    margin: auto;
+    position: static;
+}
+
+div.crystalInteractive{
+    width: 45%;
+    position: static;
+
+    float: left;
+
+}
+
+div.pixelInteractive {
+    margin-left: 55%;
+  position: static;
+}
+
+
+div.projectTitles{
+    width: 90%;
+    margin: auto;
+    position: static;
+}
+
+div.crystalTitle{
+    width: 45%;
+    position: static;
+    float: left;
+  text-align: center;
+  margin-bottom: 8px;
+
+
+}
+
+div.pixelTitle {
+  margin-left: 55%;
+  position: static;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+
+div.projectDescriptions{
+    width: 90%;
+    margin: auto;
+    position: static;
+}
+
+div.crystalDescription{
+
+  width: 45%;
+    position: static;
+    float: left;
+ vertical-align: middle;
+font-size: 75%;
+}
+
+div.pixelDescription {
+
+  margin-left: 55%;
+  position: static;
+  vertical-align: middle;
+  font-size: 75%;
+}
+
+div.projectGit{
+    width: 90%;
+    margin: auto;
+    position: static;
+}
+
+div.crystalGit{
+
+  width: 45%;
+    position: static;
+    float: left;
+ vertical-align: middle;
+
+}
+
+div.pixelGit {
+
+  margin-left: 55%;
+  position: static;
+  vertical-align: middle;
+}
+

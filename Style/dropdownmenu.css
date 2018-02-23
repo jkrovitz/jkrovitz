@@ -115,6 +115,32 @@ padding:10px 20px;
 }
 
 
+   .btn4 a.btn4{
+      color: #01426a;
+
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+.static, .btn4:link {
+/*    background-color: #01426a;*/
+ color: #01426a;
+  padding:10px 20px;
+
+/*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn4:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+    /* Style the active class, and buttons on mouse-over */
+.active, .btn4:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+
 /*
 .heading{
 
