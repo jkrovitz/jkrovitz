@@ -13,6 +13,13 @@
       });
 
     </script>
+
+        <script>
+      $(function(){
+        $("#siteFooter").load("footer.html");
+      });
+
+    </script>
   </head>
   <body bgcolor="#71C5e8" style="font-family:ARIAL;">
 
@@ -21,9 +28,22 @@
 
 <div class="container">
 <div class="aboutMeTextAndImage">
+
+  <!--
   <div class="image">
-    <img src="Images/AboutMeImage.jpg" height="185px" width="150px" />
+    <img src="Images/AboutMeImage.jpg">
   </div>
+-->
+
+<!--  <img src="Images/AboutMeImage.jpg" class="picOfMe" alt="Picture of Jeremy Krovitz" style="width:30%">-->
+
+  <div class="imageOfMe"><p><img  class="Me"
+                                 src="Images/AboutMeImage.jpg"
+                                 alt="Pic of Jeremy Krovitz"
+                                 width="100" height="150"
+                                 align="left" style="margin:10px 0px"></p></div>
+
+
   <div class="text">
     <h3 class="aboutMeH3Class"> About Me </h3>
     <p class="firstIndexPara"> My name is Jeremy Krovitz, and I am a third year computer science major at Macalester College
@@ -89,10 +109,10 @@
     </div>
 </div>
 
-    <div id="footerId" class="footer">
-      &copy; 2018 Jeremy Krovitz
-    </div>
+
      </div>
+
+     <div id="siteFooter"></div>
 
   </body>
 </html>
