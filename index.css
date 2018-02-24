@@ -1,14 +1,13 @@
 
 
 
-}div.aboutMeTextAndImage{
+div.aboutMeTextAndImage{
   width: 100%;
-  margin-bottom:70px;
+  margin-bottom:10px;
   position: static;
 }
 
 
-/*
 .image {
   width: 30%;
   float: left;
@@ -16,7 +15,6 @@
  position: static;
   margin-left: 10px;
 }
-*/
 
 div.imageOfMe {
     width: 14%;
@@ -194,6 +192,7 @@ div.pixelGit {
 }
 
 
+/*
 
 @media only screen and (max-width:800px) {
 
@@ -207,6 +206,7 @@ div.pixelGit {
 
 
 @media only screen and (max-width:500px) {
+*/
 
   div.aboutMeTextAndImage{
   width: 100%;
@@ -397,5 +397,6 @@ div.pixelGit {
   color: white;
 }
 
+/*
 
-}
+}*/
