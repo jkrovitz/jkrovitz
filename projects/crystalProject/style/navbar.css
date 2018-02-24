@@ -4,11 +4,43 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #E9EBEB;
+
+
+
 }
 
+h1{
+
+     text-align: center;
+}
+
+/* unvisited link */
+h1 a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+h1 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+h1 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+h1 a:active {
+    color: white;
+    text-decoration: none;
+}
 
 li {
     float: left;
+/*    text-decoration-color: #01426A;*/
 
 }
 
@@ -48,7 +80,9 @@ li a:hover, .dropdown:hover .dropbtn {
     background-color: #71C5E8;
 }
 
-
+a:visited, .dropdown:hover .dropbtn {
+    color: green;
+}
 
 li.dropdown {
     display: inline-block;
@@ -58,6 +92,5 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 
 
