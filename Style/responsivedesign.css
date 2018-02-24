@@ -37,12 +37,6 @@ a:link, a:visited, a:hover {
 
 
 
-.leftHeadshot{
-/*   display: fixed;*/
-  float: left;
-/*   padding: 0 20px 20px 0;*/
-
-}
 
 
 
@@ -125,7 +119,7 @@ a:link, a:visited, a:hover {
       float: left;
       width: 50%;
       padding-top: 300px;
-      height: 450px; /* Should be removed. Only for demonstration */
+/*      height: 450px; */
     }
 
 
@@ -226,15 +220,17 @@ a:link, a:visited, a:hover {
 }
 
 
+/*
 .footer {
-  /*   position: relative;*/
+     position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #01426A;
-  color: white;
+  background-color: #71C5e8;
+  color: #01426a;
   text-align: center;
 }
+*/
 
 
 .button {

@@ -1,0 +1,30 @@
+html, body {
+    overflow-x: hidden
+      font-size: 2vw;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+.aboutMeId{
+  display: fixed;
+  float: left;
+  font-size: 80%;
+  margin-bottom: 50px;
+   margin-right: 50px;
+}
+
+.aboutMeImageId{
+  float: left;
+  margin-bottom: 50px;
+}
+
