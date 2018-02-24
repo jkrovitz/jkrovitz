@@ -1,0 +1,119 @@
+<!--This is my index file.  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-16">
+    <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="Style/responsivedesign.css">
+    <script src="Libraries/jquery-3.2.1.min.js"></script>
+    <script>
+      $(function(){
+        $("#siteHeader").load("header.html");
+      });
+
+    </script>
+
+        <script>
+      $(function(){
+        $("#siteFooter").load("footer.html");
+      });
+
+    </script>
+  </head>
+  <body bgcolor="#71C5e8" style="font-family:ARIAL;">
+
+
+    <div id="siteHeader"></div>
+
+<div class="container">
+<div class="aboutMeTextAndImage">
+
+  <!--
+  <div class="image">
+    <img src="Images/AboutMeImage.jpg">
+  </div>
+-->
+
+<!--  <img src="Images/AboutMeImage.jpg" class="picOfMe" alt="Picture of Jeremy Krovitz" style="width:30%">-->
+
+  <div class="imageOfMe"><p><img  class="Me"
+                                 src="Images/AboutMeImage.jpg"
+                                 alt="Pic of Jeremy Krovitz"
+                                 width="100" height="150"
+                                 align="left" style="margin:0px 0px"></p></div>
+
+
+  <div class="text">
+    <h3 class="aboutMeH3Class"> About Me </h3>
+    <p class="firstIndexPara"> My name is Jeremy Krovitz, and I am a third year computer science major at Macalester College
+      in St. Paul, Minnesota. I am passionate about developing software
+      that will solve problems and better the lives of others.
+  </p>
+
+    <p class="secondIndexPara">  I am seeking an internship during the summer of 2018
+        that will allow me to utilize my problem solving skills and attention to
+        detail to further develop my abilities in the field of computer science.</p>
+
+
+    <p class="thirdIndexPara">  Please take a look at some of my work that is shown below.</p>
+  </div>
+</div><div class="projectsAll">
+    <div class="projectsLabel"><h3 class=projectsH3Class><font color="#01426a">&nbsp;Projects</font></h3></div>
+
+
+     <div class="projectInteractive">
+      <div class="crystalInteractive" >
+        <a href="projects/crystalProject/crystalIndex.html" target="_self">
+          <img src="Images/crystalVisualization.png" alt="Crystal Visualization" width=100% height=%>
+        </a>
+      </div>
+      <div class="pixelInteractive" >
+        <img src="Images/pixelSortingButton.png" alt="Pixel Sorting" width=100% height=%>
+      </div>
+    </div>
+
+
+    <div class="projectTitles">
+      <div class="crystalTitle" >
+        <h3><font color="#01426a">Crystal Visualization</font></h3>
+      </div>
+      <div class="pixelTitle" >
+        <h3><font color="#01426a">Pixel Sorting</font></h3>
+      </div></div><div class="projectDescriptions">
+      <div class="crystalDescription" >
+
+        <p ><font color="#01426a">
+          A program I created with teammates - Luke Brown, Emma Thole, and Will Kann - in my software development class to visualize the
+          refraction of light in crystals. This program is not intended for mobile devices.</font></p>
+      </div>
+      <div class="pixelDescription" >
+
+        <p ><font color="#01426a">
+          A program I created with teammates - Luke Brown and Emma Thole - in my algorithms class that allows the user to input an
+          image of their choice and choose from sorting criteria. A copy of the image is output with the pixels reorangized
+          based on the sorting criteria the user chose.
+          </font></p>
+      </div>
+    </div>
+    <div class="projectGit" id="my_centered_buttons">
+      <div class="crystalGit" >
+        <button class="button button1"  type="reset" onclick="location.href='https://github.com/jkrovitz/jkrovitz/tree/master/projects/crystalProject'">
+          See it on Github
+        </button>
+      </div><div class="pixelGit" >
+        <button class="button button1"  type="reset" onclick="location.href='https://github.com/jkrovitz/jkrovitz/tree/master/projects/pixelSorting'">
+          See it on Github
+        </button>
+      </div>
+    </div>
+</div>
+
+
+     </div>
+
+     <div id="siteFooter"></div>
+
+  </body>
+</html>

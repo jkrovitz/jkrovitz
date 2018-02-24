@@ -1,0 +1,260 @@
+@import url('dropdownmenu.css');
+
+html, body {
+    overflow-x: hidden
+      font-size: 2vw;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+a:link, a:visited, a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.aboutMeId{
+  display: fixed;
+  float: left;
+  font-size: 80%;
+  margin-bottom: 50px;
+   margin-right: 50px;
+}
+
+.aboutMeImageId{
+  float: left;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+@media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 667px)
+  and (orientation : portrait) {
+    .firstColumnSet {
+/*
+      font-size: 30px;
+    font-size: 3.5vw;
+      font-size: 8px;
+*/
+      display: fixed;
+       font-size: 80%;
+      float: left;
+      width: 50%;
+      padding: 30px;
+      height: 500px; /* Should be removed. Only for demonstration */
+
+    }
+
+}
+
+
+
+
+
+@media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 667px)
+  and (orientation : landscape) {
+
+    /*columns*/
+    .firstColumnSet {
+      display: fixed;
+      font-size: 80%;
+/*      font-size: 30px;*/
+      float: left;
+      width: 50%;
+      padding: 30px;
+      height: 450px; /* Should be removed. Only for demonstration */
+    }
+
+
+}
+
+@media only screen
+  and (min-device-width : 1000px){
+
+
+
+    /*columns*/
+    .firstColumnSet {
+      display: fixed;
+/*      font-size: 40px;*/
+       font-size: 80%;
+      float: left;
+      width: 50%;
+      padding-top: 300px;
+      height: 450px; /* Should be removed. Only for demonstration */
+    }
+
+
+}
+
+
+@media only screen
+  and (min-device-width : 668px)
+  and(max-device-width : 999px)
+  {
+
+
+
+    /*columns*/
+    .firstColumnSet {
+
+      display: fixed;
+      float: left;
+      width: 50%;
+      padding-top: 300px;
+/*      height: 450px; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.projectsClass{
+  padding-left: 2px;
+  padding-top: 300px;
+  margin-bottom: -15px;
+}
+
+
+/* Clear floats after the columns */
+.firstRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*columns*/
+.firstColumnSet {
+  display: fixed;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: auto;
+}
+
+
+/* Clear floats after the columns */
+.secondRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*columns*/
+.secondColumnSet {
+  display: fixed;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.thirdRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*columns*/
+.thirdColumnSet {
+  display: fixed;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: auto;
+}
+
+
+/* Clear floats after the columns */
+.fourthRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*columns*/
+.fourthColumnSet {
+  display: fixed;
+  float: left;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+
+  -webkit-column-gap: 30%; /* Chrome, Safari, Opera */
+  -moz-column-gap: 30%; /* Firefox */
+  column-gap: 30%;
+
+  height: auto;
+  width: 50%;
+
+}
+
+
+/*
+.footer {
+     position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #71C5e8;
+  color: #01426a;
+  text-align: center;
+}
+*/
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 20px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #E9EBEB;
+  color: #01426A;
+  /*    border: 2px solid #FFB500;*/
+}
+
+
+
+.button1:hover {
+  background-color: #FFB500;
+  color: white;
+}
+

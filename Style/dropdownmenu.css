@@ -1,0 +1,303 @@
+
+::-moz-selection { /* Code for Firefox */
+    color: #ffb500;
+    background: #01426a;
+}
+
+::selection {
+    color: #ffb500;
+    background: #01426a;
+}
+
+
+    .myDivClass{
+/*      background-color: #ffffff;*/
+      border-bottom-color: #01426a;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      display: block;
+      background-color: #fffffff;
+
+padding:10px 20px;
+
+
+/*
+
+  border: none;
+    outline: none;
+*/
+
+    cursor: pointer;
+/*  background-color: white;*/
+/*  text-decoration-color: #01426a;*/
+
+    font-size: 18px;
+    color: #01426a;
+    }
+  /* Style the buttons */
+
+
+    .btn1 a.btn1{
+        background-color: white;
+        color: #01426a;
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+.static, .btn1:link {
+/*    background-color: #01426a;*/
+ color: #01426a;
+  padding:10px 20px;
+
+/*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn1:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+    /* Style the active class, and buttons on mouse-over */
+.active, .btn1:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+
+
+
+        .btn2 a.btn2{
+      color: #01426a;
+
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+.static, .btn2:link {
+/*    background-color: #01426a;*/
+ color: #01426a;
+  padding:10px 20px;
+
+/*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn2:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+    /* Style the active class, and buttons on mouse-over */
+.active, .btn2:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+        .btn3 a.btn3{
+      color: #01426a;
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+.static, .btn3:link {
+/*    background-color: #01426a;*/
+ color: #01426a;
+  padding:10px 20px;
+
+/*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn3:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+    /* Style the active class, and buttons on mouse-over */
+.active, .btn3:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+
+   .btn4 a.btn4{
+      color: #01426a;
+
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+.static, .btn4:link {
+/*    background-color: #01426a;*/
+ color: #01426a;
+  padding:10px 20px;
+
+/*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn4:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+    /* Style the active class, and buttons on mouse-over */
+.active, .btn4:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+
+/*
+.heading{
+
+}
+*/
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+*/
+/*
+
+li {
+    display: inline;
+}
+*/
+
+.myDivClass a.current {
+  background:#ffb500;
+  color:#01426a;
+
+}
+
+
+/*
+nav a.current {
+  background:darkblue;
+  color:white;
+}
+
+.tips-tricks a.tips-tricks {
+  background:darkblue;
+  color:white;
+}
+*/
+
+
+/*
+.btn1 a.btn1,
+.btn2 a.btn2,
+.btn3 a.btn3,
+{
+  background:#01426a;
+  color:white;
+}
+*/
+
+
+
+
+
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+*/
+
+/*
+
+li {
+    float: left;
+
+}
+*/
+
+
+/* unvisited link */
+/*
+ul a:link {
+    color: #01426a;
+}
+*/
+
+/* visited link */
+/*
+ul a:visited {
+      color: #01426a;
+}
+*/
+
+/* mouse over link */
+/*
+ul a:hover {
+     color: #01426a;
+}
+*/
+
+/*
+ selected link
+ul a:active {
+     color: #01426a;
+}
+*/
+
+/*
+li a:link, .but {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      background-color: #ffffff;
+
+
+}
+*/
+
+
+
+/*
+
+li a:hover, .dropdown:hover .but {
+    background-color: #FFB500;
+}
+
+li a:visited, .dropdown:active .but {
+    background-color: #FFB500;
+}
+
+li a:active, .dropdown:active .but {
+    background-color: #FFB500;
+}
+
+
+li a:link, .dropdown:link .but {
+    background-color: #01426a;
+}
+*/
+
+
+
+
+/*
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ Style the active class, and buttons on mouse-over
+.active, .menu-buttons:hover {
+    background-color: #ffb500;
+    color: #01426a;
+}
+*/
+
+
+
+
