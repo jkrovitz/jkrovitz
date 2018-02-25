@@ -24,10 +24,11 @@ a:link, a:visited, a:hover {
 
 .aboutMeId{
   display: fixed;
-  float: left;
-  font-size: 80%;
-  margin-bottom: 50px;
-   margin-right: 50px;
+
+  text-align: center;
+/*  font-size: 80%;*/
+/*  margin-bottom: 50px;*/
+/*   margin-right: 50px;*/
 }
 
 .aboutMeImageId{
@@ -40,7 +41,7 @@ a:link, a:visited, a:hover {
 .leftHeadshot{
 /*   display: fixed;*/
   float: left;
-/*   padding: 0 20px 20px 0;*/
+   padding: 0 20px 20px 0;
 
 }
 
@@ -148,6 +149,7 @@ a:link, a:visited, a:hover {
   padding-left: 2px;
   padding-top: 300px;
   margin-bottom: -15px;
+  text-align: center;
 }
 
 
@@ -162,6 +164,7 @@ a:link, a:visited, a:hover {
 .firstColumnSet {
   display: fixed;
   float: left;
+  text-align: center;
   width: 50%;
   padding: 5px;
   height: auto;
@@ -215,7 +218,6 @@ a:link, a:visited, a:hover {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
   column-count: 2;
-
   -webkit-column-gap: 30%; /* Chrome, Safari, Opera */
   -moz-column-gap: 30%; /* Firefox */
   column-gap: 30%;
