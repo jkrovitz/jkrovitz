@@ -45,14 +45,13 @@ padding: 10px 20px 10px 20px;
 
 .btn1 a.btn1{
     background-color: white;
-    padding-bottom: 50px;
     color: #01426a;
 }
 
 /* Style the active class, and buttons on mouse-over */
 .static, .btn1:link {
     /*    background-color: #01426a;*/
-        padding-bottom: 50px;
+
     color: #01426a;
     padding:10px 20px;
 
@@ -60,7 +59,6 @@ padding: 10px 20px 10px 20px;
 }
 /* Style the active class, and buttons on mouse-over */
 .active, .btn1:hover {
-       padding-bottom: 50px;
     background-color: #ffb500;
     text-decoration-color: #01426a;
 }
@@ -68,7 +66,7 @@ padding: 10px 20px 10px 20px;
 
 .btn2 a.btn2{
     color: #01426a;
-    padding-bottom: 50px;
+
 
 }
 
@@ -77,7 +75,7 @@ padding: 10px 20px 10px 20px;
     /*    background-color: #01426a;*/
     color: #01426a;
     padding:10px 20px;
-        padding-bottom: 50px;
+
 
     /*    color: #01426a;*/
 }
@@ -85,14 +83,14 @@ padding: 10px 20px 10px 20px;
 .active, .btn2:hover {
     background-color: #ffb500;
     text-decoration-color: #01426a;
-        padding-bottom: 50px;
+
 }
 
 /* Style the active class, and buttons on mouse-over */
 .active, .btn2:hover {
     background-color: #ffb500;
     text-decoration-color: #01426a;
-        padding-bottom: 50px;
+
 }
 
 .btn3 a.btn3{
