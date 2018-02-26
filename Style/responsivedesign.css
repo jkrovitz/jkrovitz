@@ -1,4 +1,4 @@
-@import url('dropdownmenu.css');
+/*@import url('dropdownmenu.css');*/
 
 html, body {
     overflow-x: hidden
@@ -133,8 +133,26 @@ a:link, a:visited, a:hover {
 }
 
 
+@media only screen
+  and (min-device-width : 200px)
+  and(max-device-width : 1000px)
+
+{
 
 
+
+    /*columns*/
+    .firstColumnSet {
+
+      display: fixed;
+      float: left;
+      width: 50%;
+      padding-top: 300px;
+      height: 450px; /* Should be removed. Only for demonstration */
+    }
+
+
+}
 
 
 

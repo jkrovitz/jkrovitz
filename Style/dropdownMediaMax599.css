@@ -1,0 +1,153 @@
+@media screen
+  and (max-device-width: 599px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+::-moz-selection { /* Code for Firefox */
+    color: #ffb500;
+    background: #01426a;
+}
+
+::selection {
+    color: #ffb500;
+    background: #01426a;
+}
+
+
+     .navbarClass{
+          display: none;
+         width: 100%;
+    /*      background-color: #ffffff;*/
+    border-bottom-color: #01426a;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    background-color: #fffffff;
+
+padding: 10px 20px 10px 20px;
+    cursor: pointer;
+         width: 100%;
+
+      }
+
+
+      .fullNavClass{
+         font-size: .6em;
+      }
+
+.myDivClass{
+    display: none;
+    width: 50%;
+    cursor: pointer;
+}
+
+
+
+
+.btn1 a.btn1{
+    background-color: white;
+    padding-bottom: 50px;
+    color: #01426a;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.static, .btn1:link {
+    /*    background-color: #01426a;*/
+        padding-bottom: 50px;
+    color: #01426a;
+    padding:10px 20px;
+
+    /*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn1:hover {
+       padding-bottom: 50px;
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+
+.btn2 a.btn2{
+    color: #01426a;
+    padding-bottom: 50px;
+
+}
+
+/* Style the active class, and buttons on mouse-over */
+.static, .btn2:link {
+    /*    background-color: #01426a;*/
+    color: #01426a;
+    padding:10px 20px;
+        padding-bottom: 50px;
+
+    /*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn2:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+        padding-bottom: 50px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn2:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+        padding-bottom: 50px;
+}
+
+.btn3 a.btn3{
+    color: #01426a;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.static, .btn3:link {
+    /*    background-color: #01426a;*/
+    color: #01426a;
+    padding:10px 20px;
+
+    /*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn3:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn3:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+
+.btn4 a.btn4{
+    color: #01426a;
+
+}
+
+/* Style the active class, and buttons on mouse-over */
+.static, .btn4:link {
+    /*    background-color: #01426a;*/
+    color: #01426a;
+    padding:10px 20px;
+
+    /*    color: #01426a;*/
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn4:hover {
+    background-color: #ffb500;
+    text-decoration-color: #01426a;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn4:hover {
+/*    background-color: #ffb500;*/
+    text-decoration-color: #01426a;
+}
+
+.myDivClass a.current {
+    background:#ffb500;
+    color:#01426a;
+
+}
+}
