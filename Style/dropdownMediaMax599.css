@@ -23,7 +23,7 @@
     border-bottom-style: solid;
     background-color: #fffffff;
 
-padding: 10px 20px 10px 20px;
+padding: 5px 10px 5px 10px;
     cursor: pointer;
          width: 100%;
 
@@ -31,7 +31,7 @@ padding: 10px 20px 10px 20px;
 
 
       .fullNavClass{
-         font-size: .6em;
+         font-size: .1em;
       }
 
 .myDivClass{
