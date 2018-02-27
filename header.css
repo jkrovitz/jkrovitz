@@ -1,4 +1,3 @@
-/*
 html, body {
     overflow-x: hidden;
       font-size: 2vw;
@@ -10,36 +9,35 @@ body {
     width: 100%;
     height: 100%;
 }
-*/
 
-.myHeaderClass{
-  background-color: #01426a;
-  padding: 10px;
-}
 
-h1 {
-  font-size: 200%;
-  color: #ffffff;
-}
 
 
 @media only screen and (max-width: 599px) {
 .myHeaderClass{
   background-color: #01426a;
   padding: 5px;
+    width:100%:
 }
 
 h1 {
   font-size: 50%;
+  width
   color: #ffffff;
 }
 }
 
 @media only screen and (min-width: 600px) {
-  .myHeaderClass{
-    font-size: 40px;
-    padding: 10px 20px 10px 20px;
-  }
+.myHeaderClass{
+  background-color: #01426a;
+  padding: 10px;
+  width:100%:
+}
+
+h1 {
+  font-size: 200%;
+  color: #ffffff;
+}
 }
 
 
