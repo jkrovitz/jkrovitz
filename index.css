@@ -1,7 +1,87 @@
 
+
+/*This code is the styling for the site's headder.*/
+body {margin:0;}
+
+
+h1.siteHeader {
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: #01426a;
+    color: white;
+    text-align: center;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    padding: 20px 5px 20px 5px;
+}
+
+
+
+@media only screen and (max-width: 599px) {
+    .siteHeader {
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: #ffb500;
+    color: white;
+    text-align: center;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    /*padding: 0 0 20px 5px;*/
+}
+
+
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
 h3, p{
 margin:0;
 }
+
+
+a:link, a:visited, a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.aboutMeId{
+  display: fixed;
+
+  text-align: center;
+  font-size: 20px;
+   margin-right: 50px;
+}
+
+.aboutMeImageId{
+  float: left;
+  margin-right:
+}
+
+p.p1{
+  font-size: 10px;
+}
+
+p.p2{
+  font-size: 10px;
+}
+
+p.p3{
+  font-size: 10px;
+}
+
 
 h2, p{
 margin:0;
@@ -19,12 +99,7 @@ div.aboutMeTextAndImage{
 }
 
 
-.img {
-  width: 30%;
-  float: left;
- position: static;
-  margin-left: 10px;
-}
+
 
 div.imageOfMe {
     width: 14%;
@@ -44,21 +119,6 @@ h2.aboutMeH3Class {
 }
 
 
-p.firstIndexPara {
-  margin-top: 8px;
-  font-size: 75%;
-}
-
-p.secondIndexPara {
-    margin-top: 8px;
-  font-size: 75%;
-}
-
-p.thirdIndexPara {
-  margin-top: 8px;
-  font-size: 75%;
-}
-
 
 /*---------------------------------------------------*/
 
@@ -67,176 +127,16 @@ p, h2{
   margin:0;
 }
 
-div.projectsAll{
-  position: static;
-}
+
 
 .projectsClass{
-  margin-bottom: 10px;
-}
-
-h3{
-  margin-bottom: 10px;
-}
-.projectsLabel{
-  position: static;
-}
-
-h3.projectsH3Class{
-  position: static;
+  padding-left: 2px;
+/*  padding-top: 300px;*/
   text-align: center;
-  color: #01426a;
-  font-size: 200%;
-}
-
-
-div.projectInteractive{
-    width: 90%;
-    margin: auto;
-    position: static;
-}
-
-div.crystalInteractive{
-    width: 45%;
-    position: static;
-
-    float: left;
-
-}
-
-div.pixelInteractive {
-    margin-left: 55%;
-  position: static;
-}
-
-
-div.projectTitles{
-    width: 90%;
-    margin: auto;
-    position: static;
-}
-
-div.crystalTitle{
-    width: 45%;
-    position: static;
-    float: left;
-  text-align: center;
-  margin-bottom: 8px;
-
-
-}
-
-div.pixelTitle {
-  margin-left: 55%;
-  position: static;
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-
-div.projectDescriptions{
-    width: 90%;
-    margin: auto;
-    position: static;
-}
-
-div.crystalDescription{
-
-  width: 45%;
-    position: static;
-    float: left;
- vertical-align: middle;
-font-size: 75%;
-}
-
-div.pixelDescription {
-
-  margin-left: 55%;
-  position: static;
-  vertical-align: middle;
-  font-size: 75%;
-}
-
-div.projectGit{
-    width: 90%;
-    margin: auto;
-    position: static;
-}
-
-div.crystalGit{
-
-  width: 45%;
-    position: static;
-    float: left;
- vertical-align: middle;
-
-}
-
-div.pixelGit {
-
-  margin-left: 55%;
-  position: static;
-  vertical-align: middle;
-}
-
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 20px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 20px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-  background-color: #E9EBEB;
-  color: #01426A;
-  /*    border: 2px solid #FFB500;*/
 }
 
 
 
-.button1:hover {
-  background-color: #FFB500;
-  color: white;
-}
-
-
-/*
-
-@media only screen and (max-width:800px) {
-
-
-
-
-
-}
-
-
-
-
-@media only screen and (max-width:500px) {
-*/
-
-  div.aboutMeTextAndImage{
-  width: 100%;
-  margin-bottom:70px;
-  position: static;
-}
-
-
-div.imageOfMe {
-    width: 14%;
-    height: 14%;
-}
-
-h3.aboutMeH3Class {
-  color: #01426a;
-  font-size: 100%;
-}
 .text {
   width: 100-30%;
   float: left;
@@ -245,24 +145,7 @@ h3.aboutMeH3Class {
   margin-right: 10px;
 }
 
-h3, p{
-margin:0;
-}
 
-p.firstIndexPara {
-   margin-top: 8px;
-  font-size: 75%;
-}
-
-p.secondIndexPara {
-    margin-top: 8px;
-  font-size: 75%;
-}
-
-p.thirdIndexPara {
-  margin-top: 8px;
-  font-size: 75%;
-}
 
 
 /*---------------------------------------------------*/
@@ -289,99 +172,6 @@ h3.projectsH3Class{
 }
 
 
-div.projectInteractive{
-    width: 90%;
-    margin: auto;
-
-    position: static;
-}
-
-div.crystalInteractive{
-    width: 45%;
-    position: static;
-    margin-top: 10px;
-    float: left;
-
-}
-
-div.pixelInteractive {
-    margin-left: 55%;
-  position: static;
-}
-
-
-div.projectTitles{
-    width: 90%;
-    margin: auto;
-    font-size: 10%;
-    position: static;
-}
-
-div.crystalTitle{
-    width: 45%;
-    position: static;
-/*    float: left;*/
-  text-align: center;
-  margin-bottom: 8px;
-
-
-}
-
-div.pixelTitle {
-    width: 55%;
-    position: static;
-/*    float: left;*/
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-
-div.projectDescriptions{
-    width: 80%;
-    margin: auto;
-    position: static;
-}
-
-div.crystalDescription{
-
-  width: 45%;
-    position: static;
- vertical-align: middle;
-  float: left;
-font-size: 75%;
-}
-
-div.pixelDescription {
-justify-content: center;
-  margin-left: 55%;
-  position: static;
-  vertical-align: middle;
-  font-size: 75%;
-}
-
-div.projectGit{
-    justify-content: center;
-  width: 90%;
-    margin: auto;
-/*    font-size: 30%;*/
-    position: static;
-}
-
-div.crystalGit{
-
-  width:45%;
-    position: static;
-    float: left;
- vertical-align: middle;
-
-}
-
-div.pixelGit {
-
-  margin-left: 55%;
-  position: static;
-  vertical-align: middle;
-}
 
 
   .button {
@@ -408,15 +198,227 @@ div.pixelGit {
 
 
 
-.button1:hover {
-  background-color: #FFB500;
-  color: white;
-}
 
 .projectsClass{
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 /*
 
+
 }*/
+
+row1{
+/*    padding: 0 30px 0 30px;*/
+
+}
+
+div.leftRow1{
+
+    float:left;
+/*     border: 1px solid blue; */
+  margin-top: 20px;
+    margin-bottom: 10px;
+    width: calc(45% - 2px);
+    text-align: center;
+/*  margin-left: 10px;*/
+ color: #01426a;
+
+}
+
+div.rightRow1{
+    float:right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: center;
+
+ color: #01426a;
+
+}
+
+div.centerRow1{
+    float: left;
+    margin-top: 20px;
+  margin-bottom: 10px;
+/*     border: 1px solid green; */
+    width: calc(10%-2px);
+    text-align: center;
+
+}
+
+
+div.row1 img{
+/*
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+div.leftRow1 img{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*  float:left;*/
+/*     border: 1px solid blue; */
+/*    margin-bottom: 10px;*/
+/*    width: calc(45% - 2px);*/
+/*    text-align: center;*/
+/*  margin-left: 10px;*/
+ color: #01426a;
+}
+div.rightRow1 img{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*  float:left;*/
+/*     border: 1px solid blue; */
+/*    margin-bottom: 10px;*/
+/*    width: calc(45% - 2px);*/
+/*    text-align: center;*/
+/*  margin-left: 10px;*/
+ color: #01426a;
+}
+div.centerRow1 img{
+    float: center;
+  margin-bottom: 10px;
+/*     border: 1px solid green; */
+/*    width: calc(10%-2px);*/
+    text-align: center;
+}
+
+
+
+.row2{
+/*    padding: 0 30px 0 30px;*/
+
+
+}
+
+.leftRow2 {
+    float:left;
+/*     border: 1px solid blue; */
+  font-size: 14px;
+    margin-bottom: 10px;
+    width: calc(45% - 2px);
+    text-align: center;
+/*  margin-left: 10px;*/
+ color: #01426a;
+}
+.rightRow2{
+    float:right;
+  font-size: 14px;
+    margin-bottom: 10px;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: center;
+
+ color: #01426a;
+}
+.centerRow2{
+    float: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+/*     border: 1px solid green; */
+    width: calc(10%-2px);
+    text-align: center;
+}
+
+
+.row3{
+/*  margin-bottom: 10px;*/
+  padding: 0 30px 0 30px;
+}
+
+.leftRow3 {
+    float:left;
+    margin-bottom: 20px;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: left;
+
+  margin-left: 10px;
+ color: #01426a;
+}
+.rightRow3 {
+    float:right;
+    margin-bottom: 20px;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: left;
+  margin-left: 10px;
+ color: #01426a;
+}
+.centerRow3{
+    float: left;
+     margin-bottom: 20px;
+/*     border: 1px solid green; */
+    width: calc(10%-2px);
+    text-align: center;
+
+}
+
+/*
+.row4{
+    padding: 0 30px 0 30px;
+
+}
+*/
+
+div.leftRow4 {
+    float:left;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: center;
+  margin-left: 10px;
+ color: #01426a;
+}
+div.centerRow4{
+    float: center;
+/*     border: 1px solid green; */
+    width: calc(10%-2px);
+    text-align: center;
+}
+div.rightRow4 {
+    float:right;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: center;
+  margin-left: 10px;
+ color: #01426a;
+}
+
+
+
+
+
+
+  a.seeItOnGithubClass4:link, a.seeItOnGithubClass4:visited, a.seeItOnGithubClass4:active{
+    background-color: #ffffff;
+    color: #01426a;
+    border: solid 1px #01426a;
+    font-size: 10px;
+/*    margin-top: 20px;*/
+    padding: 10px 20px 10px 20px;
+
+  }
+
+a.seeItOnGithubClass4:hover{
+  background-color: #ffb500;
+}
+
+
+.footer {
+  /*   position: relative;*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #71C5e8;
+  color: #02426a;
+  text-align: center;
+}
+
