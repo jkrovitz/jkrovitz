@@ -1,9 +1,12 @@
+/*
 
 
-/*This code is the styling for the site's headder.*/
+This code is the styling for the site's headder.
 body {margin:0;}
+*/
 
 
+/*
 h1.siteHeader {
     display: block;
     margin-top: 0;
@@ -18,9 +21,11 @@ h1.siteHeader {
     font-size: 200%;
     padding: 20px 5px 20px 5px;
 }
+*/
 
 
 
+/*
 @media only screen and (max-width: 599px) {
     .siteHeader {
     display: block;
@@ -34,16 +39,15 @@ h1.siteHeader {
     width:100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
-    /*padding: 0 0 20px 5px;*/
+    padding: 0 0 20px 5px;
 }
 
 
+*/
+/*
 
 }
-
-h1 {
-  text-align: center;
-}
+*/
 
 
 h3, p{
@@ -72,14 +76,17 @@ a:link, a:visited, a:hover {
 
 p.p1{
   font-size: 10px;
+  margin-left: 10px;
 }
 
 p.p2{
   font-size: 10px;
+  margin-left: 10px;
 }
 
 p.p3{
   font-size: 10px;
+  margin-left: 10px;
 }
 
 
@@ -94,7 +101,7 @@ margin:0;
 
 div.aboutMeTextAndImage{
   width: 100%;
-  margin-bottom:10px;
+  margin-bottom:50px;
   position: static;
 }
 
@@ -131,6 +138,7 @@ p, h2{
 
 .projectsClass{
   padding-left: 2px;
+    padding-top: 50px;
 /*  padding-top: 300px;*/
   text-align: center;
 }
@@ -200,7 +208,7 @@ h3.projectsH3Class{
 
 
 .projectsClass{
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -340,7 +348,7 @@ div.centerRow1 img{
     width: calc(45% - 2px);
     text-align: left;
 
-  margin-left: 10px;
+/*  margin-left: 10px;*/
  color: #01426a;
 }
 .rightRow3 {
@@ -349,7 +357,7 @@ div.centerRow1 img{
 /*     border: 1px solid blue; */
     width: calc(45% - 2px);
     text-align: left;
-  margin-left: 10px;
+/*  margin-left: 10px;*/
  color: #01426a;
 }
 .centerRow3{
@@ -373,7 +381,7 @@ div.leftRow4 {
 /*     border: 1px solid blue; */
     width: calc(45% - 2px);
     text-align: center;
-  margin-left: 10px;
+/*  margin-left: 10px;*/
  color: #01426a;
 }
 div.centerRow4{
@@ -387,7 +395,7 @@ div.rightRow4 {
 /*     border: 1px solid blue; */
     width: calc(45% - 2px);
     text-align: center;
-  margin-left: 10px;
+/*  margin-left: 10px;*/
  color: #01426a;
 }
 
@@ -400,9 +408,9 @@ div.rightRow4 {
     background-color: #ffffff;
     color: #01426a;
     border: solid 1px #01426a;
-    font-size: 10px;
+    font-size: 5x;
 /*    margin-top: 20px;*/
-    padding: 10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
 
   }
 
@@ -412,13 +420,21 @@ a.seeItOnGithubClass4:hover{
 
 
 .footer {
-  /*   position: relative;*/
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #71C5e8;
-  color: #02426a;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
   text-align: center;
 }
 
+/*
+.footer-bottom {
+    padding: 40px 0 30px;
+}
+.copyright-text p {
+    color: #ccc;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+*/

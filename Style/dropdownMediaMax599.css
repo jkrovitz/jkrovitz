@@ -14,9 +14,10 @@
 }
 
 
+/*
      .navbarClass{
          width: 100%;
-    /*      background-color: #ffffff;*/
+          background-color: #ffffff;
     border-bottom-color: #01426a;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -26,6 +27,35 @@ padding: 5px 10px 5px 10px;
     cursor: pointer;
          width: 100%;
 
+      }
+*/
+
+
+            .fullNavClass{
+font-size: 1.6rem;
+          /*       none;*/
+          width: 100%;
+    /*      background-color: #ffffff;*/
+    border-bottom-color: #01426a;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    background-color: #fffffff;
+          margin-bottom: 10px;
+
+padding: 10px 20px 10px 20px;
+
+    /*
+
+    border: none;
+    outline: none;
+    */
+
+    cursor: pointer;
+    /*  background-color: white;*/
+    /*  text-decoration-color: #01426a;*/
+
+/*    font-size: 18px;*/
+/*    color: #01426a;*/
       }
 
 
