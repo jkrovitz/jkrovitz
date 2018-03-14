@@ -383,12 +383,16 @@ div.leftRow4 {
     text-align: center;
 /*  margin-left: 10px;*/
  color: #01426a;
+/*    margin-bottom: 50px;*/
+    padding-bottom:40px;
 }
 div.centerRow4{
     float: center;
 /*     border: 1px solid green; */
     width: calc(10%-2px);
     text-align: center;
+/*    margin-bottom: 50px;*/
+     padding-bottom: 40px;
 }
 div.rightRow4 {
     float:right;
@@ -397,6 +401,8 @@ div.rightRow4 {
     text-align: center;
 /*  margin-left: 10px;*/
  color: #01426a;
+/*    margin-bottom: 50px;*/
+     padding-bottom: 40px;
 }
 
 
