@@ -6,8 +6,17 @@
     <link rel="stylesheet" type="text/css" href="Style/responsivedesign.css">
     <link rel="stylesheet" type="text/css" href="header.css">
      <link rel="stylesheet" type="text/css" href="index.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+    .fullNavClass a.current {
+    background:#ffb500;
+    color:#01426a;
+
+}
+    </style>
 
   </head>
   <body style="font-family:ARIAL;">
@@ -19,7 +28,8 @@
 
 
     <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script>
+
+    <script>
 $(function(){
   $('a').each(function() {
     if ($(this).prop('href') == window.location.href) {
@@ -35,10 +45,8 @@ $(function(){
   <div id="fullNavID" class="fullNavClass" style="background-color: white">
         <a class="btn1" href="https://jkrovitz.github.io/jkrovitz/" style="color:#01426a;">Home</a>
  <a class="btn2" href="https://jkrovitz.github.io/jkrovitz/resume.html" style="color:#01426a;">My Resume</a>
-<!--    <a class="btn3" href="https://jkrovitz.github.io/jkrovitz/contactme.html" style="color:#01426a;">Contact Me</a>-->
+<!--    <a class="btn3" href="contactme.html" style="color:#01426a;">Contact Me</a>-->
   <a class="btn4" href="https://github.com/jkrovitz/jkrovitz" style="color:#01426a;">Github</a>
-
-
 
     </div>
 
