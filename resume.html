@@ -7,6 +7,7 @@
     <meta charset="utf-16">
     <script src="Libraries/jquery-3.2.1.min.js"></script>
 
+    <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
   <script>
       $(function(){
         $("#siteHeader").load("header.html");
@@ -41,8 +42,58 @@
 </div>
 -->
 
+    <script>
 
-<embed src="Jeremy%20Krovitz%20Resume.pdf" width="100%" height="200%">
+    // If absolute URL from the remote server is provided, configure the CORS
+// header on that server.
+var url = "Jeremy%20Krovitz%20Resume.pdf";
+
+// Loaded via <script> tag, create shortcut to access PDF.js exports.
+var pdfjs = window['pdfjs-dist/build/pdf'];
+
+// The workerSrc property shall be specified.
+pdfjs.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+
+// Asynchronous download of PDF
+var loadingTask = pdfjs.getDocument(url);
+loadingTask.promise.then(function(pdf) {
+  console.log('PDF loaded');
+
+  // Fetch the first page
+  var pageNumber = 1;
+  pdf.getPage(pageNumber).then(function(page) {
+    console.log('Page loaded');
+
+    var scale = 2;
+    var viewport = page.getViewport(scale);
+
+    // Prepare canvas using PDF page dimensions
+    var canvas = document.getElementById('the-canvas');
+    var context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    // Render PDF page into canvas context
+    var renderContext = {
+      canvasContext: context,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+    renderTask.then(function () {
+      console.log('Page rendered');
+    });
+  });
+}, function (reason) {
+  // PDF loading error
+  console.error(reason);
+});
+
+    </script>
+
+    <canvas id="the-canvas"></canvas>
+
+
+<!--<embed src="Jeremy%20Krovitz%20Resume.pdf" width="100%" height="200%">-->
 
    <div id="siteFooter"></div>
 
