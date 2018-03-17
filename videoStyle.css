@@ -15,11 +15,28 @@ display: block;
 }
 */
 
+.videoPageHeaderClass{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+     font-size: 280%;
+    color: #01426a;
+}
+
+.videoDescriptionTextClass{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 140%;
+    color: #01426a;
+    font-weight: bold;
+}
+
 
 row1{
 /*    padding: 0 30px 0 30px;*/
 
 }
+
 
 div.leftRow1{
     float:left;
@@ -63,7 +80,7 @@ div.centerRow1{
 /*     border: 1px solid blue; */
   font-size: 14px;
     margin-bottom: 10px;
-    width: calc(45% - 2px);
+    width: calc(30% - 2px);
     text-align: center;
 /*  margin-left: 10px;*/
  color: #01426a;
@@ -73,7 +90,7 @@ div.centerRow1{
   font-size: 14px;
     margin-bottom: 10px;
 /*     border: 1px solid blue; */
-    width: calc(45% - 2px);
+    width: calc(30% - 2px);
     text-align: center;
 
  color: #01426a;
@@ -83,6 +100,24 @@ div.centerRow1{
   font-size: 14px;
   margin-bottom: 10px;
 /*     border: 1px solid green; */
-    width: calc(10%-2px);
+    width: calc(30%-2px);
+    text-align: center;
+}
+
+.centerRow2a{
+    float: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+/*     border: 1px solid green; */
+    width: calc(5%-2px);
+    text-align: center;
+}
+
+.centerRow2b{
+    float: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+/*     border: 1px solid green; */
+    width: calc(5%-2px);
     text-align: center;
 }
