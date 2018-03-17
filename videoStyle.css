@@ -1,0 +1,88 @@
+/*
+
+#video-style{
+display: block;
+    padding-left: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+*Or add your own style*
+}
+*/
+
+/*
+.videoClass{
+    text-align: center;
+}
+*/
+
+
+row1{
+/*    padding: 0 30px 0 30px;*/
+
+}
+
+div.leftRow1{
+    float:left;
+/*     border: 1px solid blue; */
+  margin-top: 20px;
+    margin-bottom: 10px;
+    width: calc(45% - 2px);
+    text-align: center;
+  margin-left: 10px;
+ color: #01426a;
+}
+
+div.rightRow1{
+    float:right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: center;
+ color: #01426a;
+}
+
+div.centerRow1{
+    float: left;
+    margin-top: 20px;
+
+/*     border: 1px solid green; */
+    width: calc(10%-2px);
+    text-align: center;
+}
+
+
+
+.row2{
+/*    padding: 0 30px 0 30px;*/
+
+}
+
+.leftRow2 {
+    float:left;
+/*     border: 1px solid blue; */
+  font-size: 14px;
+    margin-bottom: 10px;
+    width: calc(45% - 2px);
+    text-align: center;
+/*  margin-left: 10px;*/
+ color: #01426a;
+}
+.rightRow2{
+    float:right;
+  font-size: 14px;
+    margin-bottom: 10px;
+/*     border: 1px solid blue; */
+    width: calc(45% - 2px);
+    text-align: center;
+
+ color: #01426a;
+}
+.centerRow2{
+    float: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+/*     border: 1px solid green; */
+    width: calc(10%-2px);
+    text-align: center;
+}
