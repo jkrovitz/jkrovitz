@@ -1,56 +1,56 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .aboutMeHeading{
+    font-size: 15px;
+    font-weight: bold;
+}
 /*
-
-
-This code is the styling for the site's headder.
-body {margin:0;}
-*/
-
-
-/*
-h1.siteHeader {
-    display: block;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    background-color: #01426a;
-    color: white;
-    text-align: center;
-    width:100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%;
-    padding: 20px 5px 20px 5px;
+    * {
+    box-sizing: border-box;
 }
 */
 
-
-
-/*
-@media only screen and (max-width: 599px) {
-    .siteHeader {
-    display: block;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    background-color: #ffb500;
-    color: white;
-    text-align: center;
-    width:100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    padding: 0 0 20px 5px;
+/* Create two unequal columns that floats next to each other */
+.aboutColumn {
+    float: left;
+    padding: 10px;
+/*    height: 300px;  Should be removed. Only for demonstration*/
 }
 
-
-*/
-/*
-
+.aboutLeft {
+  width: 35%;
 }
-*/
 
+.aboutRight {
+  width: 65%;
+float: left;
+}
 
-* {
+/* Clear floats after the columns */
+.aboutRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    .projectsHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #01426a;
+    padding-top: 50px;
+  text-align: center;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.aboutMeHeading{
+    font-size: 20px;
+    font-weight: bold;
+}
+    * {
     box-sizing: border-box;
 }
 
@@ -75,6 +75,48 @@ h1.siteHeader {
     display: table;
     clear: both;
 }
+    .projectsHeading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #01426a;
+    padding-top: 50px;
+  text-align: center;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.aboutMeHeading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    .projectsHeading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #01426a;
+    padding-top: 50px;
+  text-align: center;
+}
+
+}
+
+/*
+ Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+
+
+}
+*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*
+@media only screen and (min-width: 1200px) {
+
+}
+*/
+
+
 
 h3, p{
 margin:0;
@@ -101,10 +143,7 @@ img{
 .aboutMeTextId{
     width: calc(100%-25%);
 }
-.aboutMeHeading{
-    font-size: 25px;
-    font-weight: bold;
-}
+
 
 
 
@@ -143,22 +182,19 @@ div.aboutMeTextAndImage{
 
 
 
-div.imageOfMe {
-    width: 14%;
-    height: 14%;
-}
-
 h2.aboutMeH3Class {
   color: #01426a;
   font-size: 200%;
   margin-top: 100px;
 }
+/*
 .text {
   width: 100-30%;
   float: center;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 10px;
 }
+*/
 
 
 
@@ -170,18 +206,13 @@ p, h2{
 }
 
 
-.projectsHeading{
-    font-size: 35px;
-    font-weight: bold;
-    color: #01426a;
-    padding-top: 50px;
-  text-align: center;
-}
 
 
 
 
 
+
+/*
 
 .text {
   width: 100-30%;
@@ -190,6 +221,7 @@ p, h2{
   margin-top: 20px;
   margin-right: 10px;
 }
+*/
 
 
 
@@ -199,15 +231,6 @@ p, h2{
 p, h2{
   padding: 0;
   margin:0;
-}
-
-div.projectsAll{
-  position: static;
-}
-
-
-div.projectsLabel{
-  position: static;
 }
 
 h3.projectsH3Class{
