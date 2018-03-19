@@ -42,6 +42,70 @@ float: left;
     padding-top: 50px;
   text-align: center;
 }
+
+    img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    }
+
+    * {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+padding: 4px;
+/*    height: 300px;  Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+  .projectTitlesText{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+   .projectDescriptionText{
+    font-size: 10px;
+    text-align: left;
+  }
+
+.addSpaceBetweenProjects{
+    padding-bottom: 25px;
+}
+
+  .githubButtonText{
+    font-size: 12px;
+  }
+
+
+  a.seeItOnGithubClass4:link, a.seeItOnGithubClass4:visited, a.seeItOnGithubClass4:active{
+    background-color: #ffffff;
+    color: #01426a;
+    border: solid 1px #01426a;
+    font-size: 5x;
+/*    margin-top: 20px;*/
+    padding: 5px 10px 5px 10px;
+
+  }
+
+a.seeItOnGithubClass4:hover{
+  background-color: #ffb500;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -82,6 +146,60 @@ float: left;
     padding-top: 50px;
   text-align: center;
 }
+
+    * {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+    padding: 10px;
+/*    height: 300px;  Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+.addSpaceBetweenProjects{
+    padding-bottom: 25px;
+}
+
+
+
+  a.seeItOnGithubClass4:link, a.seeItOnGithubClass4:visited, a.seeItOnGithubClass4:active{
+    background-color: #ffffff;
+    color: #01426a;
+    border: solid 1px #01426a;
+    font-size: 5x;
+/*    margin-top: 20px;*/
+    padding: 5px 10px 5px 10px;
+
+  }
+
+a.seeItOnGithubClass4:hover{
+  background-color: #ffb500;
+}
+
+    .projectTitlesText{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+   .projectDescriptionText{
+    font-size: 10px;
+    text-align: left;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -98,6 +216,9 @@ float: left;
     padding-top: 50px;
   text-align: center;
 }
+
+
+
 
 }
 
@@ -130,10 +251,12 @@ a:link, a:visited, a:hover {
 
 
 
+/*
 img{
      border-color: #01426a;
     border-width: 10px;
 }
+*/
 
 .aboutMeImage{
      border: border:3px solid #ffb500;
@@ -265,12 +388,6 @@ h3.projectsH3Class{
   /*    border: 2px solid #FFB500;*/
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 
 /*
@@ -285,393 +402,10 @@ img {
 
 }*/
 
-* {
-    box-sizing: border-box;
-}
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    text-align: center;
 
-    padding: 10px;
-/*    height: 300px;  Should be removed. Only for demonstration */
-}
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-row1{
-/*    padding: 0 30px 0 30px;*/
-
-}
-
-div.leftRow1{
-
-    float:left;
-/*     border: 1px solid blue; */
-  margin-top: 20px;
-/*    margin-bottom: 10px;*/
-    width: calc(45% - 2px);
-    text-align: center;
-/*  margin-left: 10px;*/
- color: #01426a;
-
-}
-
-div.rightRow1{
-    float:right;
-    margin-top: 20px;
-/*    margin-bottom: 10px;*/
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: center;
-
- color: #01426a;
-
-}
-
-div.centerRow1{
-    float: left;
-    margin-top: 20px;
-/*  margin-bottom: 10px;*/
-/*     border: 1px solid green; */
-    width: calc(10%-2px);
-    text-align: center;
-
-}
-
-
-div.row1 img{
-/*
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-*/
-}
-
-div.leftRow1 img{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-/*  float:left;*/
-/*     border: 1px solid blue; */
-/*    margin-bottom: 10px;*/
-/*    width: calc(45% - 2px);*/
-/*    text-align: center;*/
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-div.rightRow1 img{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-/*  float:left;*/
-/*     border: 1px solid blue; */
-/*    margin-bottom: 10px;*/
-/*    width: calc(45% - 2px);*/
-/*    text-align: center;*/
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-div.centerRow1 img{
-    float: center;
-/*  margin-bottom: 10px;*/
-/*     border: 1px solid green; */
-/*    width: calc(10%-2px);*/
-    text-align: center;
-}
-
-
-
-.row2{
-/*    padding: 0 30px 0 30px;*/
-
-
-}
-
-.leftRow2 {
-    float:left;
-/*     border: 1px solid blue; */
-  font-size: 14px;
-/*    margin-bottom: 10px;*/
-    width: calc(45% - 2px);
-    text-align: center;
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-.rightRow2{
-    float:right;
-  font-size: 14px;
-    margin-bottom: 10px;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: center;
-
- color: #01426a;
-}
-.centerRow2{
-    float: left;
-  font-size: 14px;
-  margin-bottom: 10px;
-/*     border: 1px solid green; */
-    width: calc(10%-2px);
-    text-align: center;
-}
-
-
-.row3{
-/*  margin-bottom: 10px;*/
-  padding: 0 30px 0 30px;
-}
-
-.leftRow3 {
-    float:left;
-    margin-bottom: 20px;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: left;
-
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-.rightRow3 {
-    float:right;
-    margin-bottom: 20px;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: left;
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-.centerRow3{
-    float: left;
-     margin-bottom: 20px;
-/*     border: 1px solid green; */
-    width: calc(10%-2px);
-    text-align: center;
-
-}
-
-/*
-.row4{
-    padding: 0 30px 0 30px;
-
-}
-*/
-
-div.leftRow4 {
-    float:left;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: center;
-/*  margin-left: 10px;*/
- color: #01426a;
-/*    margin-bottom: 50px;*/
-    padding-bottom:30px;
-}
-div.centerRow4{
-    float: center;
-/*     border: 1px solid green; */
-    width: calc(10%-2px);
-    text-align: center;
-/*    margin-bottom: 50px;*/
-     padding-bottom: 30px;
-}
-div.rightRow4 {
-    float:right;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: center;
-/*  margin-left: 10px;*/
- color: #01426a;
-/*    margin-bottom: 50px;*/
-     padding-bottom: 30px;
-}
-
-
-.addSpaceBetweenProjects{
-    padding-bottom: 25px;
-}
-
-
-
-  a.seeItOnGithubClass4:link, a.seeItOnGithubClass4:visited, a.seeItOnGithubClass4:active{
-    background-color: #ffffff;
-    color: #01426a;
-    border: solid 1px #01426a;
-    font-size: 5x;
-/*    margin-top: 20px;*/
-    padding: 5px 10px 5px 10px;
-
-  }
-
-a.seeItOnGithubClass4:hover{
-  background-color: #ffb500;
-}
-
-
-row5{
-    margin-bottom: -10px;
-
-}
-
-div.leftRow5{
-
-    float:left;
-/*     border: 1px solid blue; */
-  margin-top: 20px;
-/*    margin-bottom: 10px;*/
-    width: calc(45% - 2px);
-    text-align: center;
-/*  margin-left: 10px;*/
- color: #01426a;
-
-}
-
-div.rightRow5{
-    float:right;
-    margin-top: 20px;
-/*
-    margin-bottom: -10px;
-    padding-bottom: -100px;
-*/
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: center;
-
- color: #01426a;
-
-}
-
-div.centerRow5{
-    float: left;
-    margin-top: 20px;
-/*  margin-bottom: 10px;*/
-/*     border: 1px solid green; */
-    width: calc(10%-2px);
-    text-align: center;
-
-}
-
-
-div.row5 img{
-/*
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-*/
-}
-
-div.leftRow5 img{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-/*  float:left;*/
-/*     border: 1px solid blue; */
-/*    margin-bottom: 10px;*/
-/*    width: calc(45% - 2px);*/
-/*    text-align: center;*/
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-div.rightRow5 img{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-/*  float:left;*/
-/*     border: 1px solid blue; */
-/*    margin-bottom: 10px;*/
-/*    width: calc(45% - 2px);*/
-/*    text-align: center;*/
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-div.centerRow5 img{
-    float: center;
-  margin-bottom: 10px;
-/*     border: 1px solid green; */
-/*    width: calc(10%-2px);*/
-    text-align: center;
-}
-
-
-
-.row6{
-/*    padding: 0 30px 0 30px;*/
-
-
-}
-
-.leftRow6 {
-/*    float:left;*/
-/*     border: 1px solid blue; */
-  font-size: 14px;
-    position: static;
-    margin-bottom: 10px;
-    width: calc(45% - 2px);
-    text-align: center;
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-.rightRow6{
-    float:right;
-  font-size: 14px;
-    margin-bottom: 10px;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: center;
-
- color: #01426a;
-}
-.centerRow6{
-    float: left;
-  font-size: 14px;
-  margin-bottom: 10px;
-/*     border: 1px solid green; */
-    width: calc(10%-2px);
-    text-align: center;
-}
-
-
-.row7{
-/*  margin-bottom: 10px;*/
-  padding: 0 30px 0 30px;
-}
-
-.leftRow7 {
-    float:left;
-    margin-bottom: 20px;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: left;
-
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-.rightRow7 {
-    float:right;
-    margin-bottom: 20px;
-/*     border: 1px solid blue; */
-    width: calc(45% - 2px);
-    text-align: left;
-/*  margin-left: 10px;*/
- color: #01426a;
-}
-.centerRow7{
-    float: left;
-     margin-bottom: 20px;
-/*     border: 1px solid green; */
-    width: calc(10%-2px);
-    text-align: center;
-
-}
 
 .footer {
    position: fixed;
@@ -681,14 +415,4 @@ div.centerRow5 img{
   text-align: center;
 }
 
-/*
-.footer-bottom {
-    padding: 40px 0 30px;
-}
-.copyright-text p {
-    color: #ccc;
-    margin-top: 9px;
-    margin-bottom: 0;
-}
 
-*/
