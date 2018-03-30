@@ -2,7 +2,7 @@
 https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-menu-doesnt-load-new-iframe-->
 
 <html>
-<title>Crystal</title>
+<title>Crystal Project</title>
     <head>
 
 
@@ -16,21 +16,27 @@ https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-m
 
         <link rel="stylesheet" type="text/css" href="style/crystal.css">
 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script src="Libraries/jquery-3.2.1.min.js"></script><script>
+            $(function(){
+              $("#siteHeader").load("header.html");
+            });
+          </script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+      	<link href="index.css" rel="stylesheet" type="text/css"/>
+		<link href="../../header.css" rel="stylesheet" type="text/css">
+		<link href="../../Style/dropdownmenu.css" rel="stylesheet" type="text/css">
+
 
     </head>
 
-    <body bgcolor="#FFFFFF" onload="window.resizeTo(240,240)">
-<div style="background-color:#01426A; padding:2px; font-size: 10px;">
-     <h1><a href="https://jkrovitz.github.io/jkrovitz/">Jeremy Krovitz</a></h1>
-    </div>
+    <body bgcolor="#FFFFFF">
+<!-- <div style="background-color:#01426A; padding:2px; font-size: 10px;"> -->
+     <!-- <h1><a href="https://jkrovitz.github.io/jkrovitz/">Jeremy Krovitz</a></h1> -->
+    <!-- </div> -->
 
-
-
-
-
-        <form>
-            <input class="aboutButtonDiv" type="button" value="About The Program" onclick="window.location.href='about.html'" />
-        </form>
+<div id="siteHeader"></div>
+        <!-- <form> -->
+            <!-- <input class="aboutButtonDiv" type="button" value="About The Program" onclick="window.location.href='about.html'" /> -->
+        <!-- </form> -->
 
         <div id="my_centered_buttons" class="my_centered_buttons">
             <button class="crystalStructure" id="cubicPrism">
@@ -66,7 +72,8 @@ https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-m
       &copy; 2018 Jeremy Krovitz
        </div>
 
-
+	</body>
+</html>
 
 
 

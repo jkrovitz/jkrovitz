@@ -1,140 +1,107 @@
-<!--This is my index file.
-This file contains the code for the description of
-who I am as well as the code for the project title heading,
-the project interaction buttons, the individual project
-buttons, and "see it on GitHub" buttons.-->
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-16">
-    <script src="Libraries/jquery-3.2.1.min.js"></script>
-    <script>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script src="Libraries/jquery-3.2.1.min.js"></script><script>
       $(function(){
         $("#siteHeader").load("header.html");
       });
-    </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-  </head>
-
-  <body bgcolor="#71C5e8" style="font-family:ARIAL;">
-
-    <!--    The site header is imported from another
+    </script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#71C5e8" style="font-family:ARIAL;"><!--    The site header is imported from another
 document to avoid resuing code as well as to
 reduce the amount of code in one file-->
-    <div id="siteHeader"></div>
+<div id="siteHeader"></div>
+<div class="bodyDiv">
+<div class="aboutRow">
+<div class="aboutColumn aboutLeft"><img align="left" alt="Jeremy Krovitz" height="100%" src="Images/AboutMeImage.jpg" style="border:2px solid #01426a;" width="100%" /></div>
 
-    <div class="bodyDiv">
-      <div class="aboutRow">
-        <div class="aboutColumn aboutLeft">
-          <img  style="border:2px solid #01426a;" src="Images/AboutMeImage.jpg" alt="Jeremy Krovitz"
-               width="100%" height="100%" align="left" style="margin:0px 10px 0px 10px">
-        </div>
+<div class="aboutColumn aboutRight">
+<div class="aboutMeHeading"><font color="#01426a">About Me</font></div>
+&nbsp;
 
-        <div class ="aboutColumn aboutRight">
-          <font color="#01426a"><div class="aboutMeHeading">About Me</div> <br><br><p class="p1">
-            My name is Jeremy Krovitz, and I am a third year computer science major at Macalester
-            College in St. Paul, Minnesota. I am passionate about developing software that will
-            solve problems and better the lives of others. I am particularly interested in
-            developing software to help individuals with disabilities.
-          </font></p>
+<p class="p1"><font color="#01426a">My name is Jeremy Krovitz, and I am a third year computer science major at Macalester College in St. Paul, Minnesota. I am passionate about developing software that will solve problems and better the lives of others. I am particularly interested in developing software to help individuals with disabilities. </font></p>
 
-        <p class="p2"><font color="#01426a">
-          <br><br> I am looking for an internship for the summer of 2018 that has a strong
-          emphasis on front end development. I am excited to work on a team where I can both
-          contribute and learn. I am hoping to gain more knowledge about back end development
-          and data science. I am also really excited to add new programming languages to my
-          toolbox.
-          </font></p>
+<p class="p2"><br />
+<br />
+<font color="#01426a">I am looking for an internship for the summer of 2018 that has a strong emphasis on front end development. I am excited to work on a team where I can both contribute and learn. I am hoping to gain more knowledge about back end development and data science. I am also really excited to add new programming languages to my toolbox. </font></p>
 
-        <p class="p3"><font color="#01426a">
-          <br><br> Please take a look at some of my work that is shown below.
-          </font></p>
-      </div>
-    </div>
+<p class="p3"><br />
+<br />
+<font color="#01426a">Please take a look at some of my work that is shown below. </font></p>
+</div>
+</div>
 
-    <div class="projectsHeading">My Projects</div>
+<div class="projectsHeading">My Projects</div>
 
-    <div class="row">
-      <div class="column">
-        <a href="projects/crystalProject/crystalIndex.html">
-          <img src="Images/crystalVisualization2.png" alt="Crystal Visualization" width=60% height=60%>
-        </a>
-      </div>
-      <div class="column">
-        <img src="Images/pixelSorting.png" alt="Pixel Sorting" width=60% height=60%>
-      </div>
-    </div>
+<div class="row">
+<div class="column"><a href="projects/crystalProject/crystalIndex.html"><img alt="Crystal Visualization" height="60%" src="Images/crystalVisualization2.png" width="60%" /> </a></div>
 
-    <div class="row">
-      <div class="column" >
-        <font color="#01426a"> <div class="projectTitlesText">Crystal Visualization</div></font>
-      </div>
-      <div class="column">
-        <font color="#01426a"><div class="projectTitlesText">Pixel Sorting</div></font>
-      </div>
-    </div>
+<div class="column"><img alt="Pixel Sorting" height="60%" src="Images/pixelSorting.png" width="60%" /></div>
+</div>
 
-    <div class="row"><div class="column"><font color="#01426a"><div class="projectDescriptionText">
-      A program I created with teammates - Luke Brown, Emma Thole, and Will Kann - in my software
-      development class to visualize the refraction of light in crystals. This program is not intended
-      for mobile devices.</div></font></div>
-      <div class="column"><font color="#01426a"><div class="projectDescriptionText">A program I created with
-        teammates - Luke Brown and Emma Thole - in my algorithms class that allows the user to input an
-        image of their choice and choose from sorting criteria. A copy of the image is output with the pixels
-        reorangized based on the sorting criteria the user chose.</div></font></div></div>
-    <div class="addSpaceBetweenProjects">
-      <div class="row">
-        <div class="column">
-        <div class="githubButtonText">
-          <a class="seeItOnGithubClass4" href="https://github.com/jkrovitz/jkrovitz/tree/master/projects/crystalProject">
-          See it on Github > </a>
-          </div>
-        </div>
-        <div class="column">
-          <div class="githubButtonText">
-            <a class="seeItOnGithubClass4" href="https://github.com/jkrovitz/jkrovitz/tree/master/projects/pixelSorting">
-              See it on Github ></a>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="row">
+<div class="column">
+<div class="projectTitlesText"><font color="#01426a">Crystal Visualization</font></div>
+</div>
 
-    <div class="row">
-      <div class="column">
-        <a href="projects/statisticalAnalysisOnMarijuana/Recreational%20Marijuana%20and%20Its%20Impact%20on%20the%20Developing%20Mind.pdf">
-          <img src="Images/Stats%20Paper%20Button.png" alt="Stats Paper Button" width=60% height=60%>
-        </a>
-      </div>
-      <div class="column">
-        <a href="https://jkrovitz.github.io/jkrovitz/javaFlowersVideos.html">
-          <img src="Images/Java%20Videos%20Button.png" alt="Java Vides Button" width=60% height=60%>
-        </a></div>
-    </div>
+<div class="column">
+<div class="projectTitlesText"><font color="#01426a">Pixel Sorting</font></div>
+</div>
+</div>
 
-    <div class="row">
-      <div class="column" >
-        <font color="#01426a"> <div class="projectTitlesText"> A Statistical Analysis on Marijuana </div></font>
-      </div>
-      <div class="column">
-        <font color="#01426a"><div class="projectTitlesText"> My Java Flower Coding Video Tutorials</div></font>
-      </div>
-    </div>
+<div class="row">
+<div class="column">
+<div class="projectDescriptionText"><font color="#01426a">A program I created with teammates - Luke Brown, Emma Thole, and Will Kann - in my software development class to visualize the refraction of light in crystals. This program is not intended for mobile devices.</font></div>
+</div>
 
-    <div class="row">
-      <div class="column"><font color="#01426a"><div class="projectDescriptionText">A paper I wrote with
-        teammates Connor Miller, Eli Ratner, and Noah Wilkerson describing the statistical analysis
-        we did using a dataset about marijuana usage.</div></font></div>
-      <div class="column"><font color="#01426a"> <div class="projectDescriptionText">These are videos
-        that I created when I took a summer course to help a classmate who was having diffiuclty with
-        the Java assignment.</div></font></div>
-    </div>
+<div class="column">
+<div class="projectDescriptionText"><font color="#01426a">A program I created with teammates - Luke Brown and Emma Thole - in my algorithms class that allows the user to input an image of their choice and choose from sorting criteria. A copy of the image is output with the pixels reorangized based on the sorting criteria the user chose.</font></div>
+</div>
+</div>
 
-    <div class="addSpaceBetweenProjects"> </div>
-    <div id="footerId" class="footer">
-      <font color=#01426a> &copy; 2018 Jeremy Krovitz </font>
-    </div>
+<div class="addSpaceBetweenProjects">
+<div class="row">
+<div class="column">
+<div class="githubButtonText"><a class="seeItOnGithubClass4" href="https://github.com/jkrovitz/jkrovitz/tree/master/projects/crystalProject">See it on Github &gt; </a></div>
+</div>
 
-  </body>
+<div class="column">
+<div class="githubButtonText"><a class="seeItOnGithubClass4" href="https://github.com/jkrovitz/jkrovitz/tree/master/projects/pixelSorting">See it on Github &gt;</a></div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="column"><a href="projects/statisticalAnalysisOnMarijuana/Recreational%20Marijuana%20and%20Its%20Impact%20on%20the%20Developing%20Mind.pdf"><img alt="Stats Paper Button" height="60%" src="Images/Stats%20Paper%20Button.png" width="60%" /> </a></div>
+
+<div class="column"><a href="https://jkrovitz.github.io/jkrovitz/javaFlowersVideos.html"><img alt="Java Vides Button" height="60%" src="Images/Java%20Videos%20Button.png" width="60%" /> </a></div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="projectTitlesText"><font color="#01426a">A Statistical Analysis on Marijuana </font></div>
+</div>
+
+<div class="column">
+<div class="projectTitlesText"><font color="#01426a">My Java Flower Coding Video Tutorials</font></div>
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+<div class="projectDescriptionText"><font color="#01426a">A paper I wrote with teammates Connor Miller, Eli Ratner, and Noah Wilkerson describing the statistical analysis we did using a dataset about marijuana usage.</font></div>
+</div>
+
+<div class="column">
+<div class="projectDescriptionText"><font color="#01426a">These are videos that I created when I took a summer course to help a classmate who was having diffiuclty with the Java assignment.</font></div>
+</div>
+</div>
+
+<div class="addSpaceBetweenProjects"></div>
+
+<div class="footer" id="footerId"><font color="#01426a">&copy; 2018 Jeremy Krovitz </font></div>
+</div>
+</body>
 </html>

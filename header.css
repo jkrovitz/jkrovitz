@@ -20,6 +20,7 @@ body {
  .myHeaderClass{
    background-color: #01426a;
    padding: 8px 8px 8px 8px;
+   display: absolute;
    width:100%;
    font-size: 200%;
    color: #ffffff;
