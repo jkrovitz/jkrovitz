@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test.html</title>
+	   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("/footer.html"); 
+    });
+    </script>
+	<script>
+$(function(){
+  $("#b-placeholder").load("footer.html");
+});
+</script>
+	<head>
+  <link rel="import" href="/footer.html">
+</head>
+</head>
+
+<body>
+	<div id="b-placeholder"></div>
+</body>
+</html>

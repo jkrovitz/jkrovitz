@@ -1,0 +1,88 @@
+<!--Some of the code for orientationDropdowns was obtainted and modified from
+https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-menu-doesnt-load-new-iframe-->
+
+<html>
+<title>Crystal Project</title>
+    <head>
+
+
+        <script src="/projects/crystalProject/lib/three.js"></script>
+        <script src="/projects/crystalProject/lib/jquery.slim.js"></script>
+
+
+              <link rel="stylesheet" type="text/css" href="projects/crystalProject/style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="Style/responsivedesign.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="projects/crystalProject/style/crystal.css">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		
+		    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("footer.html"); 
+    });
+    </script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      	<link href="index.css" rel="stylesheet" type="text/css"/>
+		<link href="header.css" rel="stylesheet" type="text/css">
+<!--		<link href="Style/dropdownmenu.css" rel="stylesheet" type="text/css">-->
+
+
+    </head>
+
+    <body bgcolor="#FFFFFF">
+<!-- <div style="background-color:#01426A; padding:2px; font-size: 10px;"> -->
+     <!-- <h1><a href="https://jkrovitz.github.io/jkrovitz/">Jeremy Krovitz</a></h1> -->
+    <!-- </div> -->
+
+ <div id="siteHeader"></div> 
+        <!-- <form> -->
+            <!-- <input class="aboutButtonDiv" type="button" value="About The Program" onclick="window.location.href='about.html'" /> -->
+        <!-- </form> -->
+
+        <div id="my_centered_buttons" class="my_centered_buttons">
+            <button class="crystalStructure" id="cubicPrism">
+                <img alt="cubic prism" src="projects/crystalProject/crystalProjectImages/cubicImage.png" width="95%" height="95%">
+            </button>
+            <button class="crystalStructure" id="hexagonalPrism">
+                <img alt="hexagonal prism" src="/Users/jkrovitz/GitHub/jkrovitz/projects/crystalProject/crystalProjectImages/hexagonalPrismImage.png" width="95%" height="95%"></button>
+            <button class="crystalStructure" id="tetragonalPrism">
+                <img alt="tetragonal prism" src="projects/crystalProject/crystalProjectImages/tetragonalImage.png" width="95%" height="95%">
+            </button>
+            <button class="crystalStructure" id="trigonalPrism">
+                <img alt="trigonal prism" src="projects/crystalProject/crystalProjectImages/trigonalImage.png" width="95%" height="95%">
+            </button>
+        </div>
+
+        <div class="onOffSwitchLabel"> </div>
+        <div class="onoffswitch">Cross Section:
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+
+<!--        <div class="cystalJSClass">-->
+ <script src="/projects/crystalProject/app/crystal.js"></script>
+<!--        </div>-->
+
+
+<!--
+<div id="wrap">
+  <div id="main"></div>
+</div>
+-->
+
+		<div id="includedContent" class="footer"></div>
+<!--
+      &copy; 2018 Jeremy Krovitz
+       </div>
+-->
+
+	</body>
+</html>
