@@ -16,17 +16,21 @@ https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-m
 
         <link rel="stylesheet" type="text/css" href="style/crystal.css">
 
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script src="Libraries/jquery-3.2.1.min.js"></script><script>
-            $(function(){
-              $("#siteHeader").load("header.html");
-            });
-          </script><meta name="viewport" content="width=device-width, initial-scale=1.0">
-      	<link href="index.css" rel="stylesheet" type="text/css"/>
-		<link href="../../header.css" rel="stylesheet" type="text/css">
-		<link href="../../Style/dropdownmenu.css" rel="stylesheet" type="text/css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script src="../../../jkrovitz/Libraries/jquery-3.2.1.min.js"></script>
+
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script src="../../Libraries/jquery-3.2.1.min.js"></script><script>
+      $(function(){
+        $("#siteHeader").load("../header.html");
+      });
+    </script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#71C5e8" style="font-family:ARIAL;"><!--    The site header is imported from another
+document to avoid resuing code as well as to
+reduce the amount of code in one file-->
+<div id="siteHeader"></div>
 
 
-    </head>
 
     <body bgcolor="#FFFFFF">
 <!-- <div style="background-color:#01426A; padding:2px; font-size: 10px;"> -->
@@ -72,7 +76,7 @@ https://stackoverflow.com/questions/33573703/changing-iframe-src-via-drop-down-m
       &copy; 2018 Jeremy Krovitz
        </div>
 
-	</body>
+    </body>
 </html>
 
 
