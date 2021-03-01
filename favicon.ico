@@ -1,0 +1,78 @@
+<html>
+    <head>
+
+
+
+    	<title>Error: Page Not Found</title>
+	<script src="Libraries/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<!DOCTYPE html>
+  <html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="style/extralargedevices.php">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 992px)" href="style/largedevices.php">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="style/mediumdevices.php">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px)" href="style/smalldevices.php">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="style/extrasmalldevices.php">
+    <!-- Favorites Icons. -->
+ <link rel="apple-touch-icon" sizes="57x57" href="https://www.jeremykrovitz.com/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.jeremykrovitz.com/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.jeremykrovitz.com/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.jeremykrovitz.com/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.jeremykrovitz.com/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.jeremykrovitz.com/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.jeremykrovitz.com/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.jeremykrovitz.com/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.jeremykrovitz.com/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://www.jeremykrovitz.com/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.jeremykrovitz.com/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.jeremykrovitz.com/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.jeremykrovitz.com/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://www.jeremykrovitz.com/favicons/manifest.json">
+<meta name="google-site-verification" content="bUa_hl0qDvMEsRxuO251EAPp0xqBDtJ76mQPkxxqYm0" />
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body>
+
+    <h1 class="nameHeaderClass"><a class="nameLink" href="index.html"> Jeremy Krovitz </a></h1>
+    <nav aria-labelledby="mainmenulabel">
+    <div class="topnav" id="myTopnav">
+
+  <a href="index.html">Home</a>
+  <a href="index.html#projects">Technical Projects</a>
+  <a href="contactpage.php">Contact Me</a>
+  <a href="resume.pdf">My Resume</a>
+    <a href="https://github.com/jkrovitz/jkrovitz">Github</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+</nav>
+
+    <script src="js/nav.js"></script>
+  </body>
+  </html>
+         <!-- InstanceBeginEditable name="DocumentTitle" -->
+                <h1>Error: Page Not Found</h1>
+				<!-- InstanceEndEditable --> </header>
+            </div>
+            <section class="content-body">
+            <!-- InstanceBeginEditable name="MainContent" -->
+            <h2><span class="icon icon-alert"></span> Sorry, the page or file you requested was not found.</h2>
+
+	  	      <!-- InstanceEndEditable -->
+
+     <div id="siteFooter"></div>
+
+    </body>
+
+
+
+</html>
